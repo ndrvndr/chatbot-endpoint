@@ -1,0 +1,13 @@
+{
+  "tag": "thanks",
+  "patterns": [
+    "Terima kasih",
+    "Terima kasih telah membantu saya",
+    "Informasinya sangat membantu",
+    "Terima kasih banyak untuk informasinya",
+    "Terima kasih telah berbicara dengan saya.",
+    "Terima kasih sudah bersedia berbagi informasi ini dengan saya",
+    "Saya akan mempertimbangkan semuanya dengan hati-hati"
+  ],
+  "responses": "Saya senang bisa membantu Anda. Jangan ragu untuk menghubungi saya jika Anda membutuhkan bantuan lagi."
+}
