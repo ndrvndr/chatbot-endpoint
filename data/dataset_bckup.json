@@ -10,4 +10,18 @@
     "Saya akan mempertimbangkan semuanya dengan hati-hati"
   ],
   "responses": "Saya senang bisa membantu Anda. Jangan ragu untuk menghubungi saya jika Anda membutuhkan bantuan lagi."
-}
+},
+{
+  "tag": "program__studi",
+  "patterns": [
+    "Jurusan",
+    "Program Studi",
+    "Apa saja jurusan yang tersedia di universitas ini?",
+    "Apa saja program studi yang ditawarkan di universitas ini?",
+    "Apakah Universitas ini memiliki jurusan yang terkait dengan bidang bisnis atau teknologi?",
+    "Apakah Universitas ini menawarkan jurusan yang terkait dengan bidang seni atau desain?",
+    "Jurusan apa saja yang ada di universitas ini?",
+    "Program studi apa saja yang ada di universitas ini?"
+  ],
+  "responses": "Ada banyak program studi yang ditawarkan di UVERS, mulai dari teknik, bisnis, hingga seni. Anda bisa mengeceknya di website resmi UVERS http://uvers.ac.id/program-studi atau bisa datang langsung ke bagian penerimaan mahasiswa baru"
+},

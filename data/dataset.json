@@ -19,13 +19,11 @@
     {
       "tag": "prosedur__pendaftaran",
       "patterns": [
-        "Pendaftaran",
+        "Prosedur Pendaftaran",
+        "Mendaftar",
         "Bagaimana proses pendaftaran mahasiswa baru di universitas ini?",
-        "Apa saja dokumen yang diperlukan saat ingin mendaftar?",
         "Apakah ada batas waktu untuk pendaftaran?",
-        "Bagaimana cara mengetahui status pendaftaran saya?",
-        "Apakah saya harus melengkapi dokumen tambahan setelah melakukan pendaftar?",
-        "Apa saja syarat untuk mendaftar di universitas ini?"
+        "Bagaimana cara mengetahui status pendaftaran saya?"
       ],
       "responses": "Proses pendaftaran bisa dilakukan secara online atau datang langsung ke kantor penerimaan mahasiswa baru di UVERS. Untuk pendaftaran online, Anda bisa mengisi formulir yang ada di website resmi UVERS. Setiap program studi memiliki persyaratan yang berbeda-beda. Anda bisa mengecek persyaratan untuk program studi tertentu di website resmi universitas atau bisa langsung berkonsultasi ke bagian penerimaan mahasiswa baru."
     },
@@ -38,7 +36,8 @@
         "Apakah ada persyaratan bahasa Inggris yang harus dipenuhi? Jika ya, apakah ada tes bahasa Inggris yang harus saya ikuti?",
         "Apa saja persyaratan umum yang harus dipenuhi oleh semua calon mahasiswa?",
         "Apakah ada persyaratan khusus untuk mahasiswa internasional yang ingin mendaftar ke universitas ini?",
-        ""
+        "Apakah ada persyaratan khusus untuk mahasiswa internasional yang ingin mendaftar ke universitas ini?",
+        "Apakah saya harus menyerahkan surat rekomendasi atau surat pengalaman kerja untuk mendaftar di universitas ini?"
       ],
       "responses": "Dokumen yang diperlukan sebagai persyaratan masuk antara berikut: Scan E-KTP/PASPOR(WNA), Scan Akte Kelahiran, Scan Kartu Keluarga, ScaN Surat Ganti Nama (Jika nama berbeda dengan Akte Kelahiran), Scan Ijazah SMA/SMK/MA/Paket C, Scan Surat Keterangan Lulus Sekolah (Bagi yang belum memiliki Ijazah), Pas Foto 3x4 Berwarna Terbaru (Tuliskan nama dibagian belakang)"
     },
@@ -75,8 +74,15 @@
     },
     {
       "tag": "daftar__online",
-      "patterns": [],
-      "responses": ""
+      "patterns": [
+        "Apakah saya harus membuat akun terlebih dahulu sebelum mendaftar di universitas ini secara online?",
+        "Apakah ada batas waktu untuk mendaftar di universitas ini secara online?",
+        "Bagaimana cara melengkapi formulir pendaftaran secara online dan apa saja informasi yang perlu diisi?",
+        "Apa saja tahapan seleksi yang harus saya lalui setelah mendaftar secara online di universitas ini?",
+        "Bagaimana saya bisa mengetahui status pendaftaran saya setelah mendaftar secara online di universitas ini?",
+        "Apakah saya bisa mengubah informasi atau dokumen yang sudah saya kirimkan setelah mendaftar secara online di universitas ini?"
+      ],
+      "responses": "http://join.uvers.ac.id/subcribe"
     },
     {
       "tag": "fasilitas",
@@ -84,7 +90,7 @@
         "Fasilitas",
         "Apakah fasilitas perpustakaan tersedia di universitas?",
         "Apa jenis fasilitas olahraga yang tersedia di universitas?",
-        "Apakah ada laboratorium untuk setiap jurusan yang ditawarkan?",
+        "Apakah ada laboratorium?",
         "Apa jenis layanan kesehatan yang tersedia di universitas?",
         "Apakah ada klub atau organisasi mahasiswa yang aktif di universitas?",
         "Apa fasilitas keamanan yang tersedia di kampus universitas?",
@@ -98,32 +104,32 @@
       "responses": "Fasilitas..."
     },
     {
-      "tag": "major",
+      "tag": "program__studi",
       "patterns": [
+        "Program Studi",
+        "Program",
+        "Studi",
         "Jurusan",
-        "Apa saja jurusan yang tersedia di universitas ini?",
-        "Apa saja program studi yang ditawarkan di universitas ini?",
-        "Apakah Universitas ini memiliki jurusan yang terkait dengan bidang bisnis atau teknologi?",
-        "Apakah Universitas ini menawarkan jurusan yang terkait dengan bidang seni atau desain?",
-        "Jurusan apa saja yang ada di universitas ini?",
-        "Program studi apa saja yang ada di universitas ini?"
+        "Apa saja yang ditawarkan di universitas ini?",
+        "Apakah Universitas ini memiliki program studi yang terkait dengan bidang bisnis atau teknologi?",
+        "Apakah Universitas ini menawarkan yang terkait dengan bidang seni atau desain?"
       ],
       "responses": "Ada banyak program studi yang ditawarkan di UVERS, mulai dari teknik, bisnis, hingga seni. Anda bisa mengeceknya di website resmi UVERS http://uvers.ac.id/program-studi atau bisa datang langsung ke bagian penerimaan mahasiswa baru"
     },
     {
-      "tag": "detailMajorInformatika",
+      "tag": "detail__tif",
       "patterns": [
         "Tif",
         "Teknik Informatika",
-        "Apa saja keunggulan dan kelemahan dari jurusan Teknik Informatika?",
-        "Bagaimana kurikulum di jurusan Teknik Informatika dibandingkan dengan jurusan yang sama di universitas lain?",
-        "Apa saja pilihan mata kuliah yang tersedia dalam jurusan Teknik Informatika?",
-        "Bagaimana karir yang tersedia setelah lulus dari jurusan Teknik Informatika?",
-        "Apa saja persyaratan untuk mendaftar ke jurusan Teknik Informatika?",
-        "Apakah ada kegiatan atau klub mahasiswa yang terkait dengan jurusan Teknik Informatika?",
-        "Apakah ada kesempatan untuk magang atau program penelitian dalam jurusan Teknik Informatika?"
+        "Apa saja keunggulan dan kelemahan dari  Teknik Informatika?",
+        "Bagaimana kurikulum di Teknik Informatika di universitas ini dibandingkan dengan di universitas lain?",
+        "Apa saja pilihan mata kuliah yang tersedia dalam Teknik Informatika?",
+        "Bagaimana karir yang tersedia setelah lulus dari Teknik Informatika?",
+        "Apa saja persyaratan untuk mendaftar ke Teknik Informatika?",
+        "Apakah ada kegiatan atau klub mahasiswa yang terkait dengan Teknik Informatika?",
+        "Apakah ada kesempatan untuk magang atau program penelitian dalam Teknik Informatika?"
       ],
-      "responses": "Jurusan Teknik Informatika...Untuk lebih lengkapnya dapat kunjungi tautan berikut http://uvers.ac.id/prodi/informatika/"
+      "responses": "Teknik Informatika...Untuk lebih lengkapnya dapat kunjungi tautan berikut http://uvers.ac.id/prodi/informatika/"
     },
     {
       "tag": "akreditasi",
@@ -163,14 +169,10 @@
       "tag": "thanks",
       "patterns": [
         "Makasih",
-        "Terimas kasih",
+        "Terima kasih",
         "Thanks",
         "Terima kasih sudah bersedia berbagi informasi ini dengan saya",
-        "Terima kasih telah membantu saya",
-        "Informasinya sangat membantu",
-        "Terima kasih banyak untuk informasinya",
-        "Terima kasih telah berbicara dengan saya.",
-        "Saya akan mempertimbangkan semuanya dengan hati-hati"
+        "Terima kasih telah membantu saya"
       ],
       "responses": "Saya senang bisa membantu anda"
     },

@@ -3,7 +3,6 @@ with open('data/dataset.json', 'r') as f:
     dataset = json.load(f)
     
 import numpy as np
-import random
 
 import torch
 import torch.nn as nn
@@ -34,8 +33,8 @@ X_train = []
 y_train = []
 for (pattern_sentence, tag) in xy:
     
-    bag = remove_punctuation(pattern_sentence)
-    bag = remove_stopWords(pattern_sentence)
+    # bag = remove_punctuation(pattern_sentence)
+    # bag = remove_stopWords(pattern_sentence)
     
     bag = vectorization(pattern_sentence, all_token)
     
@@ -47,11 +46,11 @@ X_train = np.array(X_train)
 y_train = np.array(y_train)
 
 # Hyper-parameters 
-num_epochs = 1400
-batch_size = 7
+num_epochs = 1100
+batch_size = 10
 learning_rate = 0.001
 input_layer = len(X_train[0])
-hidden_layer = 10
+hidden_layer = 5
 output_layer = len(tags)
 print(input_layer)
 

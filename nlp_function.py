@@ -1,6 +1,6 @@
 import nltk
-nltk.download('punkt')
-nltk.download('stopwords')
+# nltk.download('punkt')
+# nltk.download('stopwords')
 from nltk.corpus import stopwords
 stopwords_list = stopwords.words('indonesian')
 new_stopword = ["yg", "aja", "yng"]
