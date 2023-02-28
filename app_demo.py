@@ -2,6 +2,12 @@ import openai
 
 openai.api_key = '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'
 
+import nltk
+nltk.download('stopwords')
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from string import punctuation
+
 import json
 with open('data/dataset.json', 'r') as json_data:
     dataset = json.load(json_data)
@@ -31,10 +37,10 @@ bot_name = "Uvers"
 
 def get_response(msg):
     sentence = tokenization(msg)
-    
-    # sentence = remove_punctuation(msg)
-    # sentence = remove_stopWords(msg)
-    # sentence = [stemming_token(w) for w in sentence]
+    sentence = [word.lower() for word in sentence if word not in punctuation]
+    stop_words = set(stopwords.words('indonesian'))
+    sentence = [word for word in sentence if not word in stop_words]
+    sentence = [stemming_token(w) for w in sentence]
     
     X = vectorization(sentence, all_token)
     X = X.reshape(1, X.shape[0])
