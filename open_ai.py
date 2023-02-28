@@ -1,5 +1,4 @@
 import openai
-
 openai.api_key = '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'
 
 while True:
@@ -10,10 +9,8 @@ while True:
     completion = openai.Completion.create(
         model = "text-davinci-003",
         prompt = prompt,
-        max_tokens = 1000,
+        max_tokens = 500,
         temperature = 0,
-        n = 1,
-        stop= None
     )
     
     response = completion.choices[0].text

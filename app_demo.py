@@ -1,5 +1,5 @@
-import openai
-openai.api_key = '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'
+# import openai
+# openai.api_key = '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'
 
 import nltk
 # nltk.download('stopwords')
@@ -55,23 +55,19 @@ def get_response(msg):
         for intent in dataset['intents']:
             if tag == intent["tag"]:
                 print(f"{bot_name}: {intent['responses']}")
-                # return intent['responses']
     
     else:
         # prompt = msg
         # completion = openai.Completion.create(
         #     model = "text-davinci-003",
         #     prompt = prompt,
-        #     max_tokens = 200,
+        #     max_tokens = 500,
         #     temperature = 0,
-        #     n = 1
         # )
-        # response = completion.choices[0].text.strip()
+        # response = completion.choices[0].text
         # print(f"{bot_name}: {response}")
-        # return response
     
         print(f"{bot_name}: Saya tidak mengerti...Tolong masukan kata kunci yang lain")
-        # return "Saya tidak mengerti...Tolong masukan kata kunci yang lain!"
         
 if __name__ == "__main__":
     print("Anda telah terhubungan dengan Uvers (ketik 'quit' untuk mengakhiri percakapan)")
