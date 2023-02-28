@@ -77,10 +77,10 @@ def get_response(msg):
         # return "Saya tidak mengerti...Tolong masukan kata kunci yang lain!"
         
 if __name__ == "__main__":
-    print("Let's chat! (type 'quit' to exit)")
+    print("Anda telah terhubungan dengan Uvers (ketik 'quit' untuk mengakhiri percakapan)")
     while True:
         
-        sentence = input("You: ")
+        sentence = input("Kamu: ")
         if sentence == "quit":
             break
 
