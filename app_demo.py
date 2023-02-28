@@ -31,6 +31,11 @@ bot_name = "Uvers"
 
 def get_response(msg):
     sentence = tokenization(msg)
+    
+    # sentence = remove_punctuation(msg)
+    # sentence = remove_stopWords(msg)
+    # sentence = [stemming_token(w) for w in sentence]
+    
     X = vectorization(sentence, all_token)
     X = X.reshape(1, X.shape[0])
     X = torch.from_numpy(X).to(device)

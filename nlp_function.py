@@ -17,11 +17,9 @@ stemmer = factory.create_stemmer()
 def tokenization(raw_text):
     return nltk.word_tokenize(raw_text.lower())
 
-
 def remove_punctuation(token):
     unPunctuation_token = [word for word in token if word not in string.punctuation]
     return unPunctuation_token
-
 
 def remove_stopWords(unPunctuation_token):
     unStopWords_token = [word for word in unPunctuation_token if word not in stopwords_list]
@@ -40,7 +38,7 @@ def vectorization(clean_token, all_token):
     
     return bag
 
-# sentence = 'Persyaratan untuk mendaftar apa saja?'
+# sentence = "Apakah uvers    memiliki jurusan terkait dengan bidang teknologi?"
 # print(sentence)
 
 # sentence = tokenization(sentence)

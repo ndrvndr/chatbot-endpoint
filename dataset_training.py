@@ -3,6 +3,11 @@ with open('data/dataset.json', 'r') as f:
     dataset = json.load(f)
     
 import numpy as np
+import string
+
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+stop_words = set(stopwords.words('indonesian'))
 
 import torch
 import torch.nn as nn
@@ -29,15 +34,22 @@ all_token = [stemming_token(w) for w in all_token]
 all_token = sorted(set(all_token))
 tags = sorted(set(tags))
 
+processed_sentence = []
+for words, label in xy:
+
+    words = ''.join(c for c in ' '.join(words) if c not in string.punctuation)
+    words = word_tokenize(words)
+    words = [word for word in words if word.lower() not in stop_words]
+    words = [stemming_token(w) for w in words]
+    processed_sentence.append((words, label))
+
 X_train = []
 y_train = []
-for (pattern_sentence, tag) in xy:
-    
-    # bag = remove_punctuation(pattern_sentence)
-    # bag = remove_stopWords(pattern_sentence)
+
+for (pattern_sentence, tag) in processed_sentence:
     
     bag = vectorization(pattern_sentence, all_token)
-    
+
     X_train.append(bag)
     label = tags.index(tag)
     y_train.append(label)
@@ -46,11 +58,11 @@ X_train = np.array(X_train)
 y_train = np.array(y_train)
 
 # Hyper-parameters 
-num_epochs = 1100
-batch_size = 10
+num_epochs = 1000
+batch_size = 8
 learning_rate = 0.001
 input_layer = len(X_train[0])
-hidden_layer = 5
+hidden_layer = 8
 output_layer = len(tags)
 print(input_layer)
 
