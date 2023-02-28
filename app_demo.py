@@ -54,14 +54,13 @@ def get_response(msg):
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
     
-    # completion = openai.Completion.create(
-    #     model = "text-davinci-003",
-    #     prompt = msg,
-    #     max_tokens = 1000,
-    #     temperature = 0,
-    #     n = 1
-    # )
-    # response = completion.choices[0].text
+    completion = openai.Completion.create(
+        model = "text-davinci-003",
+        prompt = msg,
+        max_tokens = 1000,
+        temperature = 0,
+        n = 1
+    )
     
     if prob.item() > 0.75:
         for intent in dataset['intents']:
@@ -70,7 +69,8 @@ def get_response(msg):
                 # return intent['responses']
     
     else:
-        # return response
+        # response = completion.choices[0].text
+        # print(f"{bot_name}: {response}")
     
         print(f"{bot_name}: Saya tidak mengerti...Tolong masukan kata kunci yang lain")
         # return "Saya tidak mengerti...Tolong masukan kata kunci yang lain!"
