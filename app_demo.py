@@ -64,8 +64,10 @@ def get_response(msg):
         #     max_tokens = 500,
         #     temperature = 0,
         # )
+        # print(completion)
         # response = completion.choices[0].text
         # print(f"{bot_name}: {response}")
+        
     
         print(f"{bot_name}: Saya tidak mengerti...Tolong masukan kata kunci yang lain")
         

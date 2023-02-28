@@ -12,6 +12,6 @@ while True:
         max_tokens = 500,
         temperature = 0,
     )
-    
+    print(completion)
     response = completion.choices[0].text
     print(response)
