@@ -1,9 +1,8 @@
 import openai
-
 openai.api_key = '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'
 
 import nltk
-nltk.download('stopwords')
+# nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from string import punctuation
@@ -11,8 +10,6 @@ from string import punctuation
 import json
 with open('data/dataset.json', 'r') as json_data:
     dataset = json.load(json_data)
-
-import random
 
 from nlp_function import tokenization, remove_punctuation, remove_stopWords, stemming_token, vectorization
 from nn_model import neural_network
