@@ -17,11 +17,13 @@
       "tag": "prosedur__pendaftaran",
       "patterns": [
         "Prosedur Pendaftaran",
+        "Bagaimana cara mendaftar ke universitas tersebut?",
         "Bagaimana proses atau prosedur pendaftaran mahasiswa baru di Uvers",
-        "Apakah ada batas waktu untuk pendaftaran di Universitas Universal?",
         "Cara mendaftar mahasiswa baru di Uvers seperti apa?",
         "Langkah-langkah pendaftaran mahasiswa baru di universitas ini apa saja?",
-        "Bagaimana cara mengetahui status pendaftaran saya?"
+        "Bagaimana cara mengetahui status pendaftaran saya?",
+        "Apakah ada seleksi atau tes yang harus diikuti untuk bisa diterima di Universitas Universal?",
+        "Bagaimana cara mengetahui apakah saya sudah diterima atau belum?"
       ],
       "responses": [
         "-Proses pendaftaran bisa dilakukan dengan membeli formulir pendaftaraan secara online melalui WhatsApp Official Uvers (https://bit.ly/WhatsAppOfficialUvers) atau datang langsung ke kantor penerimaan mahasiswa baru di Uvers\n-Melakukan pendaftaran secara online (https://bit.ly/JoinUvers) setelah mendapatkan form registrasi\n-Melaksanakan Ujian Saringan Masuk secara online\n-Menunggu pengumuman penerimaan mahasiswa baru\n-Melakukan registrasi ulang untuk secara resmi terdaftar sebagai mahasiswa baru"
@@ -48,6 +50,7 @@
       "tag": "biaya__pendidikan",
       "patterns": [
         "Biaya Pendidikan",
+        "Apakah ada biaya yang harus dibayar untuk pendaftaran? Jika ya, berapa besar biayanya?",
         "Berapa biaya pendidikan untuk Universitas Universal?",
         "Berapa biaya yang harus saya bayar?",
         "Apakah biaya pendaftaran sudah termasuk dalam biaya kuliah?",
@@ -118,9 +121,11 @@
         "Program",
         "Studi",
         "Jurusan",
+        "Apa saja program studi yang tersedia di Uvers?",
         "Apa saja yang ditawarkan di universitas ini?",
-        "Apakah Universitas ini memiliki program studi yang terkait dengan bidang bisnis atau teknologi?",
-        "Apakah Universitas ini menawarkan yang terkait dengan bidang seni atau desain?"
+        "Apakah Uvers memiliki program studi yang terkait dengan bidang bisnis atau teknologi?",
+        "Apakah Universitas Universal menawarkan yang terkait dengan bidang seni atau desain?",
+        "Apakah ada persyaratan khusus untuk mendaftar di program studi tertentu?"
       ],
       "responses": [
         "Ada banyak program studi yang ditawarkan di Uvers, mulai dari teknik, bisnis, hingga seni. Kamu bisa mengeceknya pada tautan berikut \"https://bit.ly/Program_Studi_Uvers\" untuk mendapatkan informasi lebih lengkap mengenai program studi. Kamu juga bisa datang langsung ke bagian penerimaan mahasiswa baru untuk bertanya mengenai program studi"

@@ -3,7 +3,7 @@ import nltk
 # nltk.download('stopwords')
 from nltk.corpus import stopwords
 stopwords_list = stopwords.words('indonesian')
-new_stopword = ["yg", "aja", "yng"]
+new_stopword = ["aja", "bgmna", "bgm", "bgs", "bs", "bsk", "cpt", "gimana", "gmna", "gmn", "jgn", "klo", "km", "kmu", "kmrn", "kpn", "mngkn", "nti", "sdh", "sy", "sya", "sdhkah", "sperti", "tdk", "trs" "yg", "yng"]
 stopwords_list.extend(new_stopword)
 
 import string
@@ -38,7 +38,7 @@ def vectorization(clean_token, all_token):
     
     return bag
 
-# sentence = "Apakah uvers    memiliki jurusan terkait dengan bidang teknologi?"
+# sentence = "Dokumen apa saja yang diperlukan sebagai syarat untuk masuk ke Universitas Universal?"
 # print(sentence)
 
 # sentence = tokenization(sentence)
