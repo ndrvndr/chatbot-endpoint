@@ -1,6 +1,8 @@
 # import openai
 # openai.api_key = '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'
 
+import random
+
 import nltk
 # nltk.download('stopwords')
 from nltk.corpus import stopwords
@@ -54,8 +56,9 @@ def get_response(msg):
     if prob.item() > 0.75:
         for intent in dataset['intents']:
             if tag == intent["tag"]:
-                print(f"{bot_name}: {intent['responses']}")
-    
+                # print(f"{bot_name}: {intent['responses']}")
+                return random.choice(intent['responses'])
+                
     else:
         # prompt = msg
         # completion = openai.Completion.create(
@@ -67,14 +70,15 @@ def get_response(msg):
         # print(completion)
         # response = completion.choices[0].text
         # print(f"{bot_name}: {response}")
-        
+        # return response
     
-        print(f"{bot_name}: Saya tidak mengerti...Tolong masukan kata kunci yang lain")
-        
+        # print(f"{bot_name}: Saya tidak mengerti...Tolong masukan kata kunci yang lain")
+        print("Hmm saya tidak mengerti...Tolong masukan kata kunci yang lain!")
+
 if __name__ == "__main__":
     print("Anda telah terhubungan dengan Uvers (ketik 'quit' untuk mengakhiri percakapan)")
     while True:
-        
+        print("\n")
         sentence = input("Kamu: ")
         if sentence == "quit":
             break

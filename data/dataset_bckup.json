@@ -3,16 +3,13 @@
     {
       "tag": "greeting",
       "patterns": [
-        "Hai",
         "Hi",
-        "Hello",
+        "Hai",
         "Halo",
-        "Selamat pagi",
-        "Selamat malam",
-        "Selamat sore",
-        "Pagi",
-        "sore",
-        "Malam"
+        "Selamat Pagi",
+        "Selamat Malam",
+        "Selamat Sore",
+        "Hello"
       ],
       "responses": "Halo, dengan Humas Uvers disini, ada yang bisa kami bantu?"
     },
@@ -20,41 +17,46 @@
       "tag": "prosedur__pendaftaran",
       "patterns": [
         "Prosedur Pendaftaran",
-        "Mendaftar",
-        "Bagaimana proses pendaftaran mahasiswa baru di universitas ini?",
-        "Apakah ada batas waktu untuk pendaftaran?",
+        "Bagaimana proses atau prosedur pendaftaran mahasiswa baru di Uvers",
+        "Apakah ada batas waktu untuk pendaftaran di Universitas Universal?",
         "Bagaimana cara mengetahui status pendaftaran saya?"
       ],
-      "responses": "Proses pendaftaran bisa dilakukan secara online atau datang langsung ke kantor penerimaan mahasiswa baru di UVERS. Untuk pendaftaran online, Anda bisa mengisi formulir yang ada di website resmi UVERS. Setiap program studi memiliki persyaratan yang berbeda-beda. Anda bisa mengecek persyaratan untuk program studi tertentu di website resmi universitas atau bisa langsung berkonsultasi ke bagian penerimaan mahasiswa baru."
+      "responses": [
+        "-Proses pendaftaran bisa dilakukan dengan membeli formulir pendaftaraan secara online melalui WhatsApp Official Uvers (https://bit.ly/WhatsAppOfficialUvers) atau datang langsung ke kantor penerimaan mahasiswa baru di Uvers\n-Melakukan pendaftaran secara online (https://bit.ly/JoinUvers) setelah mendapatkan form registrasi\n-Melaksanakan Ujian Saringan Masuk secara online\n-Menunggu pengumuman penerimaan mahasiswa baru\n-Melakukan registrasi ulang untuk secara resmi terdaftar sebagai mahasiswa baru"
+      ]
     },
     {
       "tag": "persyaratan__masuk",
       "patterns": [
-        "Dokumen apa saja yang diperlukan untuk melengkapi aplikasi pendaftaran ke universitas?",
-        "Apakah universitas tersebut memerlukan dokumen tambahan seperti essay atau statement of purpose?",
-        "Apa saja persyaratan dokumen yang harus saya siapkan untuk mendaftar ke universitas ini?",
-        "Apakah ada persyaratan bahasa Inggris yang harus dipenuhi? Jika ya, apakah ada tes bahasa Inggris yang harus saya ikuti?",
+        "Dokumen",
+        "Persyaratan Masuk",
+        "Dokumen apa saja yang diperlukan sebagai syarat untuk masuk ke Universitas Universal?",
+        "Apakah Uvers memerlukan dokumen tambahan seperti essay atau statement of purpose?",
+        "Apa saja persyaratan dokumen yang harus saya siapkan untuk masuk ke universitas ini?",
+        "Apakah ada persyaratan bahasa Inggris yang harus dipenuhi?",
         "Apa saja persyaratan umum yang harus dipenuhi oleh semua calon mahasiswa?",
         "Apakah ada persyaratan khusus untuk mahasiswa internasional yang ingin mendaftar ke universitas ini?",
-        "Apakah ada persyaratan khusus untuk mahasiswa internasional yang ingin mendaftar ke universitas ini?",
-        "Apakah saya harus menyerahkan surat rekomendasi atau surat pengalaman kerja untuk mendaftar di universitas ini?"
+        "Apakah saya harus menyerahkan surat rekomendasi atau surat pengalaman kerja sebagai persyaratan untuk masuk di Universitas Universal?"
       ],
-      "responses": "Dokumen yang diperlukan sebagai persyaratan masuk antara berikut: Scan E-KTP/PASPOR(WNA), Scan Akte Kelahiran, Scan Kartu Keluarga, ScaN Surat Ganti Nama (Jika nama berbeda dengan Akte Kelahiran), Scan Ijazah SMA/SMK/MA/Paket C, Scan Surat Keterangan Lulus Sekolah (Bagi yang belum memiliki Ijazah), Pas Foto 3x4 Berwarna Terbaru (Tuliskan nama dibagian belakang)"
+      "responses": [
+        "Dokumen yang diperlukan sebagai persyaratan masuk antara berikut:\n-Scan E-KTP/PASPOR(WNA)\n-Scan Akte Kelahiran\n-Scan Kartu Keluarga\n-Scan Surat Ganti Nama (Jika nama berbeda dengan Akte Kelahiran)\n-Scan Ijazah SMA/SMK/MA/Paket C\n-Scan Surat Keterangan Lulus Sekolah (Bagi yang belum memiliki Ijazah)\n-Pas Foto 3x4 Berwarna Terbaru (Tuliskan nama dibagian belakang)"
+      ]
     },
     {
       "tag": "biaya__pendidikan",
       "patterns": [
-        "Biaya",
-        "Berapa biaya pendaftaran untuk universitas ini?",
-        "Berapa biaya yang harus saya bayar saat mendaftar?",
+        "Biaya Pendidikan",
+        "Berapa biaya pendidikan untuk Universitas Universal?",
+        "Berapa biaya yang harus saya bayar?",
         "Apakah biaya pendaftaran sudah termasuk dalam biaya kuliah?",
         "Apa saja biaya-biaya yang harus dibayarkan saat mendaftar ke universitas ini?",
         "Apakah biaya kuliah dan biaya lainnya sudah termasuk dalam biaya masuk?",
-        "Bagaimana cara pembayaran biaya masuk dan apakah ada opsi pembayaran yang fleksibel?",
         "Apakah biaya masuk bisa direfund jika saya memutuskan untuk tidak melanjutkan studi di universitas ini?",
-        "Apakah ada biaya tambahan yang harus dibayarkan jika mahasiswa mengambil program atau kegiatan tertentu di universitas ini?"
+        "Apakah ada biaya tambahan yang harus dibayarkan jika mahasiswa mengambil program studi tertentu di Uvers?"
       ],
-      "responses": "Untuk biaya pendaftaran di universitas kami adalah sebesar Rp. xxx.xxx. Biaya pendaftaran merupakan biaya terpisah dari biaya kuliah. Biaya kuliah tergantung pada program studi yang dipilih dan jumlah SKS yang diambil oleh mahasiswa."
+      "responses": [
+        "Untuk rincian biaya pendidikan di Uvers adalah sebagai berikut:\n-Biaya Pangkal dan Pembangunan= Rp0\n-Formulir= Rp100.000\n-Jas Almamater + Biaya Administrasi= Rp600.000\n-Biaya SPP Tetap= Rp4.000.000\n-Biaya SPP Per SKS (Program Studi PBM)= Rp230.000\n-Biaya SPP Per SKS(Program Studi Lainnya)= Rp180.000"
+      ]
     },
     {
       "tag": "beasiswa__potongan",
@@ -70,7 +72,9 @@
         "Apakah ada batas waktu untuk mengajukan permohonan beasiswa?",
         "Apakah ada kesempatan untuk mendapatkan beasiswa sepanjang tahun atau hanya tersedia di waktu-waktu tertentu?"
       ],
-      "responses": "Tentu saja. Universitas kami memiliki beberapa program beasiswa dan bantuan keuangan untuk mahasiswa yang berprestasi atau membutuhkan bantuan finansial. Anda bisa mengecek informasi lebih lanjut di website resmi universitas http://uvers.ac.id/admisi/beasiswa-dan-potongan"
+      "responses": [
+        "Tentu saja. Universitas kami memiliki beberapa program beasiswa dan bantuan keuangan untuk mahasiswa yang berprestasi atau membutuhkan bantuan finansial. Kamu bisa mendapatkan informasi lebih lengkap mengenai beasiswa dan potongan pada tautan berikut \"https://bit.ly/Beasiswa_Potongan_Uvers\""
+      ]
     },
     {
       "tag": "daftar__online",
@@ -82,7 +86,9 @@
         "Bagaimana saya bisa mengetahui status pendaftaran saya setelah mendaftar secara online di universitas ini?",
         "Apakah saya bisa mengubah informasi atau dokumen yang sudah saya kirimkan setelah mendaftar secara online di universitas ini?"
       ],
-      "responses": "http://join.uvers.ac.id/subcribe"
+      "responses": [
+        "Untuk melakukan pendaftaran secara online anda dapat menghubungi WhatsApp Official Uvers (https://bit.ly/WhatsAppOfficialUvers) untuk mendapatkan informasi yang lebih lengkap"
+      ]
     },
     {
       "tag": "fasilitas",
@@ -101,7 +107,7 @@
         "Apakah tersedia layanan konseling untuk mahasiswa di universitas?",
         "Apakah tersedia fasilitas transportasi yang terintegrasi dengan kampus universitas?"
       ],
-      "responses": "Fasilitas..."
+      "responses": ["Fasilitas..."]
     },
     {
       "tag": "program__studi",
@@ -114,7 +120,9 @@
         "Apakah Universitas ini memiliki program studi yang terkait dengan bidang bisnis atau teknologi?",
         "Apakah Universitas ini menawarkan yang terkait dengan bidang seni atau desain?"
       ],
-      "responses": "Ada banyak program studi yang ditawarkan di UVERS, mulai dari teknik, bisnis, hingga seni. Anda bisa mengeceknya di website resmi UVERS http://uvers.ac.id/program-studi atau bisa datang langsung ke bagian penerimaan mahasiswa baru"
+      "responses": [
+        "Ada banyak program studi yang ditawarkan di Uvers, mulai dari teknik, bisnis, hingga seni. Kamu bisa mengeceknya pada tautan berikut \"https://bit.ly/Program_Studi_Uvers\" untuk mendapatkan informasi lebih lengkap mengenai program studi. Kamu juga bisa datang langsung ke bagian penerimaan mahasiswa baru untuk bertanya mengenai program studi"
+      ]
     },
     {
       "tag": "detail__tif",
@@ -129,7 +137,9 @@
         "Apakah ada kegiatan atau klub mahasiswa yang terkait dengan Teknik Informatika?",
         "Apakah ada kesempatan untuk magang atau program penelitian dalam Teknik Informatika?"
       ],
-      "responses": "Teknik Informatika...Untuk lebih lengkapnya dapat kunjungi tautan berikut http://uvers.ac.id/prodi/informatika/"
+      "responses": [
+        "Teknik Informatika...Untuk lebih lengkapnya dapat kunjungi tautan berikut http://uvers.ac.id/prodi/informatika/"
+      ]
     },
     {
       "tag": "akreditasi",
@@ -148,7 +158,9 @@
         "Bagaimana jika saya ingin melanjutkan pendidikan ke jenjang yang lebih tinggi di masa depan, apakah akreditasi universitas ini juga berpengaruh?",
         "Apa saja program studi yang sudah terakreditasi di universitas ini dan apakah terdapat program studi yang sedang dalam proses akreditasi?"
       ],
-      "responses": "Universitas kami sudah terakreditasi oleh Badan Akreditasi Nasional Perguruan Tinggi atau BAN-PT. Kamu bisa mengunjungi situs web BAN-PT dan mencari daftar perguruan tinggi terakreditasi. Universitas kami pasti terdaftar di sana. Universitas yang terakreditasi telah teruji kualitas pendidikannya melalui proses evaluasi oleh badan akreditasi. Universitas yang terakreditasi juga diakui oleh pemerintah dan industri sebagai lembaga pendidikan yang dapat diandalkan."
+      "responses": [
+        "Universitas kami sudah terakreditasi oleh Badan Akreditasi Nasional Perguruan Tinggi atau BAN-PT. Kamu bisa mengunjungi situs web BAN-PT dan mencari daftar perguruan tinggi terakreditasi. Universitas kami pasti terdaftar di sana. Universitas yang terakreditasi telah teruji kualitas pendidikannya melalui proses evaluasi oleh badan akreditasi. Universitas yang terakreditasi juga diakui oleh pemerintah dan industri sebagai lembaga pendidikan yang dapat diandalkan."
+      ]
     },
     {
       "tag": "kos",
@@ -163,7 +175,9 @@
         "Apakah kos-kosan dekat universitas tersedia dalam berbagai tipe kamar atau hanya satu tipe kamar saja?",
         "Berapa biaya rata-rata kos-kosan yang dekat dengan universitas?"
       ],
-      "responses": "Di sekitar kampus ini terdapat banyak pilihan kos-kosan yang dapat dipilih. Namun, untuk menemukan yang tepat sesuai dengan keinginan dan kebutuhan, mungkin bisa mencari informasi dari media online seperti aplikasi pencari kos-kosan atau grup Facebook khusus kos-kosan di daerah ini. Biasanya, informasi tersebut cukup akurat dan dapat membantu dalam mencari kos-kosan yang diinginkan. Silahkan klik tautan berikut untuk melihat lokasi kos di sekitar UVERS https://www.google.co.id/maps/search/kos+sekitar+universitas+universal/@1.1306631,104.038776,15.75z"
+      "responses": [
+        "Di sekitar kampus ini terdapat banyak pilihan kos-kosan yang dapat dipilih. Namun, untuk menemukan yang tepat sesuai dengan keinginan dan kebutuhan, mungkin bisa mencari informasi dari media online seperti aplikasi pencari kos-kosan atau grup Facebook khusus kos-kosan di daerah ini. Biasanya, informasi tersebut cukup akurat dan dapat membantu dalam mencari kos-kosan yang diinginkan. Silahkan klik tautan berikut untuk melihat lokasi kos di sekitar UVERS https://www.google.co.id/maps/search/kos+sekitar+universitas+universal/@1.1306631,104.038776,15.75z"
+      ]
     },
     {
       "tag": "thanks",
@@ -174,7 +188,7 @@
         "Terima kasih sudah bersedia berbagi informasi ini dengan saya",
         "Terima kasih telah membantu saya"
       ],
-      "responses": "Saya senang bisa membantu anda"
+      "responses": ["Saya senang bisa membantu anda"]
     },
     {
       "tag": "closing",
@@ -184,7 +198,9 @@
         "Selamat tinggal",
         "Sampai jumpa lagi"
       ],
-      "responses": "Jangan ragu untuk menghubungi saya jika Anda membutuhkan informasi lebih lanjut. Sampai jumpa!"
+      "responses": [
+        "Jangan ragu untuk menghubungi saya jika Anda membutuhkan informasi lebih lanjut. Sampai jumpa!"
+      ]
     }
   ]
 }
