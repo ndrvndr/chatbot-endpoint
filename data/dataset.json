@@ -16,7 +16,6 @@
     {
       "tag": "prosedur__pendaftaran",
       "patterns": [
-        "Prosedur Pendaftaran",
         "Bagaimana cara mendaftar ke universitas tersebut?",
         "Bagaimana proses atau prosedur pendaftaran mahasiswa baru di Uvers",
         "Cara mendaftar mahasiswa baru di Uvers seperti apa?",
@@ -33,7 +32,6 @@
       "tag": "persyaratan__masuk",
       "patterns": [
         "Dokumen",
-        "Persyaratan Masuk",
         "Dokumen apa saja yang diperlukan sebagai syarat untuk masuk ke Universitas Universal?",
         "Apakah Uvers memerlukan dokumen tambahan seperti essay atau statement of purpose?",
         "Apa saja persyaratan dokumen yang harus saya siapkan untuk masuk ke universitas ini?",
@@ -49,7 +47,6 @@
     {
       "tag": "biaya__pendidikan",
       "patterns": [
-        "Biaya Pendidikan",
         "Apakah ada biaya yang harus dibayar untuk pendaftaran? Jika ya, berapa besar biayanya?",
         "Berapa biaya pendidikan untuk Universitas Universal?",
         "Berapa biaya yang harus saya bayar?",
@@ -66,7 +63,6 @@
     {
       "tag": "beasiswa__potongan",
       "patterns": [
-        "Beasiswa",
         "Apakah ada beasiswa atau bantuan keuangan yang tersedia di universitas ini?",
         "Apa jenis beasiswa yang tersedia untuk mahasiswa yang ingin mendaftar ke universitas ini?",
         "Bagaimana proses pendaftaran untuk mendapatkan beasiswa di universitas ini?",
@@ -117,14 +113,10 @@
     {
       "tag": "program__studi",
       "patterns": [
-        "Program Studi",
-        "Program",
-        "Studi",
-        "Jurusan",
-        "Apa saja program studi yang tersedia di Uvers?",
+        "Apa saja jurusan yang tersedia di Uvers?",
         "Apa saja yang ditawarkan di universitas ini?",
         "Apakah Uvers memiliki program studi yang terkait dengan bidang bisnis atau teknologi?",
-        "Apakah Universitas Universal menawarkan yang terkait dengan bidang seni atau desain?",
+        "Apakah Universitas Universal menawarkan jurusan yang terkait dengan bidang seni atau desain?",
         "Apakah ada persyaratan khusus untuk mendaftar di program studi tertentu?"
       ],
       "responses": [
@@ -134,13 +126,11 @@
     {
       "tag": "detail__tif",
       "patterns": [
-        "Tif",
-        "Teknik Informatika",
         "Apa saja keunggulan dan kelemahan dari  Teknik Informatika?",
         "Bagaimana kurikulum di Teknik Informatika di universitas ini dibandingkan dengan di universitas lain?",
         "Apa saja pilihan mata kuliah yang tersedia dalam Teknik Informatika?",
         "Bagaimana karir yang tersedia setelah lulus dari Teknik Informatika?",
-        "Apa saja persyaratan untuk mendaftar ke Teknik Informatika?",
+        "Apa saja persyaratan untuk mendaftar ke TIF?",
         "Apakah ada kegiatan atau klub mahasiswa yang terkait dengan Teknik Informatika?",
         "Apakah ada kesempatan untuk magang atau program penelitian dalam Teknik Informatika?"
       ],
@@ -151,7 +141,6 @@
     {
       "tag": "akreditasi",
       "patterns": [
-        "Akreditasi",
         "Apakah universitas ini sudah terakreditasi?",
         "Apakah Uvers sudah diakreditasi?",
         "Universitas Universal sudah diakreditasi?, jika sudah siapa yang mengakreditasi?",
@@ -172,7 +161,6 @@
     {
       "tag": "kos",
       "patterns": [
-        "Kos",
         "Apakah ada kos yang dekat dengan Uvers?",
         "Apakah Universitas Universal memiliki nama kos-kosan yang dekat dengan kampus?",
         "Apakah universitas ini memiliki layanan bantuan dalam mencari kos-kosan yang sesuai dengan kebutuhan calon mahasiswa?",
