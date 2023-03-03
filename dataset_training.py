@@ -5,6 +5,8 @@ with open('data/dataset.json', 'r') as f:
 import numpy as np
 import string
 
+import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 stop_words = set(stopwords.words('indonesian'))
