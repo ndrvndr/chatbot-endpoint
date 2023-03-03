@@ -65,7 +65,7 @@
     {
       "tag": "beasiswa__potongan",
       "patterns": [
-        "Apakah ada beasiswa atau bantuan keuangan yang tersedia di universitas ini?",
+        "Apakah ada program beasiswa atau bantuan keuangan yang tersedia di universitas ini?",
         "Apa jenis beasiswa yang tersedia untuk mahasiswa yang ingin mendaftar ke universitas ini?",
         "Bagaimana proses pendaftaran untuk mendapatkan beasiswa di universitas ini?",
         "Apakah ada persyaratan khusus yang harus dipenuhi untuk memenuhi syarat mendapatkan beasiswa?",
@@ -118,7 +118,7 @@
         "Apa saja jurusan yang tersedia di Uvers?",
         "Apa saja yang ditawarkan di universitas ini?",
         "Apakah Uvers memiliki program studi yang terkait dengan bidang bisnis atau teknologi?",
-        "Apakah Universitas Universal menawarkan jurusan yang terkait dengan bidang seni atau desain?",
+        "Apakah Universitas Universal memiliki jurusan yang terkait dengan bidang seni atau desain?",
         "Apakah ada persyaratan khusus untuk mendaftar di program studi tertentu?"
       ],
       "responses": [
