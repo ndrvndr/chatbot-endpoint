@@ -11,7 +11,9 @@
         "Selamat Sore",
         "Hello"
       ],
-      "responses": "Halo, dengan Humas Uvers disini, ada yang bisa kami bantu?"
+      "responses": [
+        "Halo, dengan Humas Uvers disini, ada yang bisa kami bantu?"
+      ]
     },
     {
       "tag": "prosedur__pendaftaran",
