@@ -33,7 +33,6 @@
     {
       "tag": "persyaratan__masuk",
       "patterns": [
-        "Dokumen",
         "Dokumen apa saja yang diperlukan sebagai syarat untuk masuk ke Universitas Universal?",
         "Apakah Uvers memerlukan dokumen tambahan seperti essay atau statement of purpose?",
         "Apa saja persyaratan dokumen yang harus saya siapkan untuk masuk ke universitas ini?",
@@ -96,7 +95,6 @@
     {
       "tag": "fasilitas",
       "patterns": [
-        "Fasilitas",
         "Apakah fasilitas perpustakaan tersedia di universitas?",
         "Apa jenis fasilitas olahraga yang tersedia di universitas?",
         "Apakah ada laboratorium?",

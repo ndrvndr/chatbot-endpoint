@@ -19,6 +19,7 @@ from nn_model import neural_network
 import torch
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 FILE = "data/data.pth"
+map_location=torch.device('cpu')
 data = torch.load(FILE)
 
 input_layer = data["input_layer"]
