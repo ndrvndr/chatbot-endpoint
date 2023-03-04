@@ -33,12 +33,12 @@
     {
       "tag": "persyaratan__masuk",
       "patterns": [
-        "Dokumen apa saja yang diperlukan sebagai syarat untuk masuk ke Universitas Universal?",
+        "Apa saja dokumen yang diperlukan sebagai syarat untuk masuk ke Universitas Universal?",
         "Apakah Uvers memerlukan dokumen tambahan seperti essay atau statement of purpose?",
         "Apa saja persyaratan dokumen yang harus saya siapkan untuk masuk ke universitas ini?",
         "Apakah ada persyaratan bahasa Inggris yang harus dipenuhi?",
-        "Apa saja persyaratan umum yang harus dipenuhi oleh semua calon mahasiswa?",
-        "Apakah ada persyaratan khusus untuk mahasiswa internasional yang ingin mendaftar ke universitas ini?",
+        "Apa saja persyaratan masuk yang harus dipenuhi oleh semua calon mahasiswa?",
+        "Apakah ada persyaratan masuk khusus untuk mahasiswa internasional yang ingin mendaftar ke universitas ini?",
         "Apakah saya harus menyerahkan surat rekomendasi atau surat pengalaman kerja sebagai persyaratan untuk masuk di Universitas Universal?"
       ],
       "responses": [
@@ -168,7 +168,7 @@
         "Berapa biaya rata-rata kos-kosan yang dekat dengan universitas?",
         "Apakah kos-kosan dekat universitas terdapat fasilitas yang memadai seperti internet, tempat parkir, atau akses transportasi umum?",
         "Apakah kos-kosan dekat universitas tersedia dalam berbagai tipe kamar atau hanya satu tipe kamar saja?",
-        "Berapa biaya rata-rata kos-kosan yang dekat dengan universitas?"
+        "Berapa harga rata-rata kos-kosan yang dekat dengan universitas?"
       ],
       "responses": [
         "Di sekitar Uvers terdapat banyak pilihan kos-kosan yang dapat dipilih. Namun, untuk menemukan kos yang tepat sesuai dengan keinginan dan kebutuhan kamu, mungkin kamu bisa mencari informasi mengenai kos-kosan dari media online seperti aplikasi pencari kos-kosan atau grup Facebook khusus kos-kosan di daerah Batam. Biasanya, informasi tersebut cukup akurat dan dapat membantu kamu dalam mencari kos-kosan yang diinginkan. Namun saya akan coba bantu kamu, silahkan kamu kunjungi tautan berikut \"https://bit.ly/Kos_Sekitar_Uvers\" untuk melihat lokasi kos-kosan yang berada disekitar Uvers. Semoga membantu kamu dalam mencari kos-kosan disekitar Uvers"
