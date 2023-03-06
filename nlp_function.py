@@ -3,7 +3,6 @@ import nltk
 # nltk.download('stopwords')
 from nltk.corpus import stopwords
 stopwords_list = stopwords.words('indonesian')
-stopwords_list.extend(new_stopword)
 
 import string
 import numpy as np
