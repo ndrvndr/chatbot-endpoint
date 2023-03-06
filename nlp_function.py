@@ -39,21 +39,21 @@ def vectorization(clean_token, all_token):
     return bag
 
 sentence = [
-        "Bagaimana cara mendaftar ke universitas tersebut?",
-        "Bagaimana proses atau prosedur pendaftaran mahasiswa baru di Uvers",
-        "Cara mendaftar mahasiswa baru di Uvers seperti apa?",
-        "Langkah-langkah pendaftaran mahasiswa baru di universitas ini apa saja?",
-        "Bagaimana cara mengetahui status pendaftaran saya?",
-        "Apakah ada seleksi atau tes yang harus diikuti untuk bisa diterima di Universitas Universal?",
-        "Bagaimana cara mengetahui apakah saya sudah diterima atau belum?"
+        "Apakah ada kos yang dekat dengan UVERS?",
+        "Apakah Universitas Universal memiliki nama kos-kosan yang dekat dengan kampus?",
+        "Apakah universitas ini memiliki layanan bantuan dalam mencari kos-kosan yang sesuai dengan kebutuhan calon mahasiswa?",
+        "Bagaimana cara mencari kos-kosan yang dekat dengan universitas? Apakah ada sumber atau media yang disarankan?",
+        "Apakah kos-kosan dekat universitas terdapat fasilitas yang memadai seperti internet, tempat parkir, atau akses transportasi umum?",
+        "Apakah kos-kosan dekat universitas tersedia dalam berbagai tipe kamar atau hanya satu tipe kamar saja?",
+        "Berapa harga rata-rata kos-kosan yang dekat dengan universitas?"
       ]
 
-for s in sentence:
-    tokens = tokenization(s)
-    tokens = remove_punctuation(tokens)
-    tokens = remove_stopWords(tokens)
-    tokens = [stemming_token(w) for w in tokens]
-    print(tokens)
+# for s in sentence:
+#     tokens = tokenization(s)
+#     tokens = remove_punctuation(tokens)
+#     tokens = remove_stopWords(tokens)
+#     tokens = [stemming_token(w) for w in tokens]
+#     print(tokens)
 
 # all_words = ["the", "red", "dog", "cat", "eats", "food"]
 

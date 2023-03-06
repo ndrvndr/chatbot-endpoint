@@ -12,22 +12,22 @@
         "Hello"
       ],
       "responses": [
-        "Halo, dengan Humas Uvers disini, ada yang bisa kami bantu?"
+        "Halo, dengan Humas UVERS disini, ada yang bisa kami bantu?"
       ]
     },
     {
       "tag": "prosedur__pendaftaran",
       "patterns": [
         "Bagaimana cara mendaftar ke universitas tersebut?",
-        "Bagaimana proses atau prosedur pendaftaran mahasiswa baru di Uvers",
-        "Cara mendaftar mahasiswa baru di Uvers seperti apa?",
+        "Bagaimana proses atau prosedur pendaftaran mahasiswa baru di UVERS",
+        "Cara mendaftar mahasiswa baru di UVERS seperti apa?",
         "Langkah-langkah pendaftaran mahasiswa baru di universitas ini apa saja?",
         "Bagaimana cara mengetahui status pendaftaran saya?",
         "Apakah ada seleksi atau tes yang harus diikuti untuk bisa diterima di Universitas Universal?",
-        "Bagaimana cara mengetahui apakah saya sudah diterima atau belum?"
+        "Bagaimana cara mengetahui apakah pendaftaran saya sudah diterima atau belum?"
       ],
       "responses": [
-        "-Proses pendaftaran bisa dilakukan dengan membeli formulir pendaftaraan secara online melalui WhatsApp Official Uvers (https://bit.ly/WhatsAppOfficialUvers) atau datang langsung ke kantor penerimaan mahasiswa baru di Uvers\n-Melakukan pendaftaran secara online (https://bit.ly/JoinUvers) setelah mendapatkan form registrasi\n-Melaksanakan Ujian Saringan Masuk secara online\n-Menunggu pengumuman penerimaan mahasiswa baru\n-Melakukan registrasi ulang untuk secara resmi terdaftar sebagai mahasiswa baru"
+        "-Proses pendaftaran bisa dilakukan dengan membeli formulir pendaftaraan secara online melalui WhatsApp Official UVERS (https://bit.ly/whatsapp_officialUVERS) atau datang langsung ke kantor penerimaan mahasiswa baru di UVERS\n-Melakukan pendaftaran secara online (https://bit.ly/joinUVERS) setelah mendapatkan form registrasi\n-Melaksanakan Ujian Saringan Masuk secara online\n-Menunggu pengumuman penerimaan mahasiswa baru\n-Melakukan registrasi ulang untuk secara resmi terdaftar sebagai mahasiswa baru"
       ]
     },
     {
@@ -35,7 +35,7 @@
       "patterns": [
         "Dokumen apa saja yang diperlukan?",
         "Apa saja dokumen yang diperlukan sebagai syarat untuk masuk ke Universitas Universal?",
-        "Apakah Uvers memerlukan dokumen tambahan seperti essay atau statement of purpose?",
+        "Apakah UVERS memerlukan dokumen tambahan seperti essay atau statement of purpose?",
         "Apa saja persyaratan dokumen yang harus saya siapkan untuk masuk ke universitas ini?",
         "Apakah ada persyaratan bahasa Inggris yang harus dipenuhi?",
         "Apa saja persyaratan masuk yang harus dipenuhi oleh semua calon mahasiswa?",
@@ -49,7 +49,7 @@
     {
       "tag": "biaya__pendidikan",
       "patterns": [
-        "Berapa besar biaya di universitas ini?",
+        "Berapa besar biaya yang harus dikeluarkan untuk masuk universitas ini?",
         "Apakah ada biaya yang harus dibayar untuk pendaftaran? Jika ya, berapa besar biayanya?",
         "Berapa biaya pendidikan untuk Universitas Universal?",
         "Berapa biaya yang harus saya bayar?",
@@ -57,10 +57,10 @@
         "Apa saja biaya-biaya yang harus dibayarkan saat mendaftar ke universitas ini?",
         "Apakah biaya kuliah dan biaya lainnya sudah termasuk dalam biaya masuk?",
         "Apakah biaya masuk bisa direfund jika saya memutuskan untuk tidak melanjutkan studi di universitas ini?",
-        "Apakah ada biaya tambahan yang harus dibayarkan jika mahasiswa mengambil program studi tertentu di Uvers?"
+        "Apakah ada biaya tambahan yang harus dibayarkan jika mahasiswa mengambil program studi tertentu di UVERS?"
       ],
       "responses": [
-        "Untuk rincian biaya pendidikan di Uvers adalah sebagai berikut:\n-Biaya Pangkal dan Pembangunan= Rp0\n-Formulir= Rp100.000\n-Jas Almamater + Biaya Administrasi= Rp600.000\n-Biaya SPP Tetap= Rp4.000.000\n-Biaya SPP Per SKS (Program Studi PBM)= Rp230.000\n-Biaya SPP Per SKS(Program Studi Lainnya)= Rp180.000"
+        "Untuk rincian biaya pendidikan di UVERS adalah sebagai berikut:\n-Biaya Pangkal dan Pembangunan= Rp0\n-Formulir= Rp100.000\n-Jas Almamater + Biaya Administrasi= Rp600.000\n-Biaya SPP Tetap= Rp4.000.000\n-Biaya SPP Per SKS (Program Studi PBM)= Rp230.000\n-Biaya SPP Per SKS(Program Studi Lainnya)= Rp180.000"
       ]
     },
     {
@@ -77,7 +77,7 @@
         "Apakah ada kesempatan untuk mendapatkan beasiswa sepanjang tahun atau hanya tersedia di waktu-waktu tertentu?"
       ],
       "responses": [
-        "Tentu saja. Universitas kami memiliki beberapa program beasiswa dan bantuan keuangan untuk mahasiswa yang berprestasi atau membutuhkan bantuan finansial. Kamu bisa mendapatkan informasi lebih lengkap mengenai beasiswa dan potongan pada tautan berikut \"https://bit.ly/Beasiswa_Potongan_Uvers\""
+        "Tentu saja. Universitas kami memiliki beberapa program beasiswa dan bantuan keuangan untuk mahasiswa yang berprestasi atau membutuhkan bantuan finansial. Kamu bisa mendapatkan informasi lebih lengkap mengenai beasiswa dan potongan pada tautan berikut \"https://bit.ly/beasiswaUVERS\""
       ]
     },
     {
@@ -91,7 +91,7 @@
         "Apakah saya bisa mengubah informasi atau dokumen yang sudah saya kirimkan setelah mendaftar secara online di universitas ini?"
       ],
       "responses": [
-        "Untuk melakukan pendaftaran secara online anda dapat menghubungi WhatsApp Official Uvers (https://bit.ly/WhatsAppOfficialUvers) untuk mendapatkan informasi yang lebih lengkap"
+        "Jika kamu sudah mempunyai Username dan Password, kamu bisa mengunungi website joinUVERS (https://bit.ly/joinUVERS) untuk melanjutkan pendaftaran secara online. Namun, jika kamu belum mendapatkan Username dan Password, kamu dapat menghubungi WhatsApp Official UVERS (https://bit.ly/whatsapp_officialUVERS) untuk mendapatkan Username dan Password, agar dapat melanjutkan pendaftaran online melalui website joinUVERS"
       ]
     },
     {
@@ -110,19 +110,21 @@
         "Apakah tersedia layanan konseling untuk mahasiswa di universitas?",
         "Apakah tersedia fasilitas transportasi yang terintegrasi dengan kampus universitas?"
       ],
-      "responses": ["Fasilitas..."]
+      "responses": [
+        "UVERS memiliki perpustakaan yang cukup lengkap dengan koleksi buku dan jurnal yang terbaru. Selain itu, perpustakaan kami juga dilengkapi dengan ruang baca dan ruang diskusi yang nyaman. UVERS memiliki beberapa laboratorium yang dilengkapi dengan peralatan canggih dan tenaga ahli yang kompeten di bidangnya. Selain itu, kami juga sering mengadakan kegiatan riset dan praktikum yang melibatkan mahasiswa dan dosen. Selain itu UVERS juga memiliki lapangan olahraga seperti, basket, badminton, dan tenis meja. Mahasiswa dapat menggunakan fasilitas ini secara gratis dan kami juga menyediakan berbagai kegiatan olahraga yang bisa diikuti. UVERS juga memiliki lapangan parkir yang luas bagi kendaraan roda empat atau roda dua."
+      ]
     },
     {
       "tag": "program__studi",
       "patterns": [
-        "Apa saja jurusan yang tersedia di Uvers?",
+        "Apa saja jurusan yang tersedia di UVERS?",
         "Apa saja yang ditawarkan di universitas ini?",
-        "Apakah Uvers memiliki program studi yang terkait dengan bidang bisnis atau teknologi?",
+        "Apakah UVERS memiliki program studi yang terkait dengan bidang bisnis atau teknologi?",
         "Apakah Universitas Universal memiliki jurusan yang terkait dengan bidang seni atau desain?",
         "Apakah ada persyaratan khusus untuk mendaftar di program studi tertentu?"
       ],
       "responses": [
-        "Ada banyak program studi yang ditawarkan di Uvers, mulai dari teknik, bisnis, hingga seni. Kamu bisa mengeceknya pada tautan berikut \"https://bit.ly/Program_Studi_Uvers\" untuk mendapatkan informasi lebih lengkap mengenai program studi. Kamu juga bisa datang langsung ke bagian penerimaan mahasiswa baru untuk bertanya mengenai program studi"
+        "Ada banyak program studi yang ditawarkan di UVERS, mulai dari teknik, bisnis, hingga seni. Kamu bisa mengeceknya pada tautan berikut \"https://bit.ly/program_studiUVERS\" untuk mendapatkan informasi lebih lengkap mengenai program studi. Kamu juga bisa datang langsung ke bagian penerimaan mahasiswa baru untuk bertanya mengenai program studi"
       ]
     },
     {
@@ -144,7 +146,7 @@
       "tag": "akreditasi",
       "patterns": [
         "Apakah universitas ini sudah terakreditasi?",
-        "Apakah Uvers sudah diakreditasi?",
+        "Apakah UVERS sudah diakreditasi?",
         "Universitas Universal sudah diakreditasi?, jika sudah siapa yang mengakreditasi?",
         "Oleh siapa universitas ini diakreditasi?",
         "Bagaimana cara mengecek akreditasi universitas ini?",
@@ -163,17 +165,16 @@
     {
       "tag": "kos",
       "patterns": [
-        "Apakah ada kos yang dekat dengan Uvers?",
+        "Apakah ada kos yang dekat dengan UVERS?",
         "Apakah Universitas Universal memiliki nama kos-kosan yang dekat dengan kampus?",
         "Apakah universitas ini memiliki layanan bantuan dalam mencari kos-kosan yang sesuai dengan kebutuhan calon mahasiswa?",
         "Bagaimana cara mencari kos-kosan yang dekat dengan universitas? Apakah ada sumber atau media yang disarankan?",
-        "Berapa biaya rata-rata kos-kosan yang dekat dengan universitas?",
         "Apakah kos-kosan dekat universitas terdapat fasilitas yang memadai seperti internet, tempat parkir, atau akses transportasi umum?",
         "Apakah kos-kosan dekat universitas tersedia dalam berbagai tipe kamar atau hanya satu tipe kamar saja?",
         "Berapa harga rata-rata kos-kosan yang dekat dengan universitas?"
       ],
       "responses": [
-        "Di sekitar Uvers terdapat banyak pilihan kos-kosan yang dapat dipilih. Namun, untuk menemukan kos yang tepat sesuai dengan keinginan dan kebutuhan kamu, mungkin kamu bisa mencari informasi mengenai kos-kosan dari media online seperti aplikasi pencari kos-kosan atau grup Facebook khusus kos-kosan di daerah Batam. Biasanya, informasi tersebut cukup akurat dan dapat membantu kamu dalam mencari kos-kosan yang diinginkan. Namun saya akan coba bantu kamu, silahkan kamu kunjungi tautan berikut \"https://bit.ly/Kos_Sekitar_Uvers\" untuk melihat lokasi kos-kosan yang berada disekitar Uvers. Semoga membantu kamu dalam mencari kos-kosan disekitar Uvers"
+        "Di sekitar UVERS terdapat banyak pilihan kos-kosan yang dapat dipilih. Namun, untuk menemukan kos yang tepat sesuai dengan keinginan dan kebutuhan kamu, mungkin kamu bisa mencari informasi mengenai kos-kosan dari media online seperti aplikasi pencari kos-kosan atau grup Facebook khusus kos-kosan di daerah Batam. Biasanya, informasi tersebut cukup akurat dan dapat membantu kamu dalam mencari kos-kosan yang diinginkan. Namun saya akan coba bantu kamu, silahkan kamu kunjungi tautan berikut \"https://bit.ly/kos_sekitarUVERS\" untuk melihat lokasi kos-kosan yang berada disekitar UVERS. Semoga membantu kamu dalam mencari kos-kosan disekitar UVERS"
       ]
     },
     {
@@ -185,7 +186,7 @@
         "Terima kasih sudah bersedia berbagi informasi ini dengan saya",
         "Terima kasih telah membantu saya"
       ],
-      "responses": ["Saya senang bisa membantu anda"]
+      "responses": ["UVERS senang bisa membantu kamu"]
     },
     {
       "tag": "closing",
@@ -196,7 +197,7 @@
         "Sampai jumpa lagi"
       ],
       "responses": [
-        "Jangan ragu untuk menghubungi saya jika Anda membutuhkan informasi lebih lanjut. Sampai jumpa!"
+        "Jangan ragu untuk menghubungi UVERS lagi, jika Kamu membutuhkan informasi lebih lanjut. Sampai jumpa!"
       ]
     }
   ]
