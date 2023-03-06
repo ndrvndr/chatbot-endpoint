@@ -3,7 +3,7 @@ import nltk
 # nltk.download('stopwords')
 from nltk.corpus import stopwords
 stopwords_list = stopwords.words('indonesian')
-new_stopword = ["aja", "bgmna", "bgm", "bgs", "bs", "bsk", "cpt", "gimana", "gmna", "gmn", "jgn", "klo", "km", "kmu", "kmrn", "kpn", "mngkn", "nti", "sdh", "sy", "sya", "sdhkah", "sperti", "tdk", "trs" "yg", "yng"]
+new_stopword = ["aja", "bgmna", "bgm", "bgs", "bs", "bsk", "cpt", "gimana", "gmna", "gmn", "jgn", "klo", "km", "kmu", "kmrn", "kpn", "mngkn", "nti", "sdh", "sy", "sya", "sdhkah", "sperti", "tdk", "trs", "yg", "yng"]
 stopwords_list.extend(new_stopword)
 
 import string
@@ -38,20 +38,22 @@ def vectorization(clean_token, all_token):
     
     return bag
 
-# sentence = "Dokumen apa saja yang diperlukan sebagai syarat untuk masuk ke Universitas Universal?"
-# print(sentence)
+sentence = [
+        "Bagaimana cara mendaftar ke universitas tersebut?",
+        "Bagaimana proses atau prosedur pendaftaran mahasiswa baru di Uvers",
+        "Cara mendaftar mahasiswa baru di Uvers seperti apa?",
+        "Langkah-langkah pendaftaran mahasiswa baru di universitas ini apa saja?",
+        "Bagaimana cara mengetahui status pendaftaran saya?",
+        "Apakah ada seleksi atau tes yang harus diikuti untuk bisa diterima di Universitas Universal?",
+        "Bagaimana cara mengetahui apakah saya sudah diterima atau belum?"
+      ]
 
-# sentence = tokenization(sentence)
-# print(sentence)
-
-# sentence = remove_punctuation(sentence)
-# print(sentence)
-
-# sentence = remove_stopWords(sentence)
-# print(sentence)
-
-# sentence = [stemming_token(word) for word in sentence]
-# print(sentence)
+for s in sentence:
+    tokens = tokenization(s)
+    tokens = remove_punctuation(tokens)
+    tokens = remove_stopWords(tokens)
+    tokens = [stemming_token(w) for w in tokens]
+    print(tokens)
 
 # all_words = ["the", "red", "dog", "cat", "eats", "food"]
 

@@ -33,6 +33,7 @@
     {
       "tag": "persyaratan__masuk",
       "patterns": [
+        "Dokumen apa saja yang diperlukan?",
         "Apa saja dokumen yang diperlukan sebagai syarat untuk masuk ke Universitas Universal?",
         "Apakah Uvers memerlukan dokumen tambahan seperti essay atau statement of purpose?",
         "Apa saja persyaratan dokumen yang harus saya siapkan untuk masuk ke universitas ini?",
@@ -48,6 +49,7 @@
     {
       "tag": "biaya__pendidikan",
       "patterns": [
+        "Berapa besar biaya di universitas ini?",
         "Apakah ada biaya yang harus dibayar untuk pendaftaran? Jika ya, berapa besar biayanya?",
         "Berapa biaya pendidikan untuk Universitas Universal?",
         "Berapa biaya yang harus saya bayar?",
