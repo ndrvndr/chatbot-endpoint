@@ -74,7 +74,7 @@ def get_response(msg):
         # return response
     
         # print(f"{bot_name}: Saya tidak mengerti...Tolong masukan kata kunci yang lain")
-        print("Hmm saya tidak mengerti...Tolong masukan kata kunci yang lain!")
+        return ("Hmm saya tidak mengerti...Tolong masukan kata kunci yang lain!")
 
 if __name__ == "__main__":
     print("Anda telah terhubungan dengan Uvers (ketik 'quit' untuk mengakhiri percakapan)")
