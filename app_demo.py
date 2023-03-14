@@ -59,7 +59,7 @@ def get_response(msg):
         for intent in dataset['intents']:
             if tag == intent["tag"]:
                 # print(f"{bot_name}: {intent['responses']}")
-                time.sleep(2)
+                # time.sleep(2)
                 return random.choice(intent['responses'])
                 
     else:
