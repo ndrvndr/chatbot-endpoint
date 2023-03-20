@@ -21,7 +21,7 @@ import torch
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 FILE = "data/data.pth"
 map_location=torch.device('cpu')
-data = torch.load(FILE)
+data = torch.load(FILE, map_location)
 
 input_layer = data["input_layer"]
 hidden_layer = data["hidden_layer"]
