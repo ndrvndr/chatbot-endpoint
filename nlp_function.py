@@ -36,15 +36,15 @@ def vectorization(clean_token, all_token):
     
     return bag
 
-sentence = [
-        "Apakah ada kos yang dekat dengan UVERS?",
-        "Apakah Universitas Universal memiliki nama kos-kosan yang dekat dengan kampus?",
-        "Apakah universitas ini memiliki layanan bantuan dalam mencari kos-kosan yang sesuai dengan kebutuhan calon mahasiswa?",
-        "Bagaimana cara mencari kos-kosan yang dekat dengan universitas? Apakah ada sumber atau media yang disarankan?",
-        "Apakah kos-kosan dekat universitas terdapat fasilitas yang memadai seperti internet, tempat parkir, atau akses transportasi umum?",
-        "Apakah kos-kosan dekat universitas tersedia dalam berbagai tipe kamar atau hanya satu tipe kamar saja?",
-        "Berapa harga rata-rata kos-kosan yang dekat dengan universitas?"
-      ]
+# sentence = [
+#         "Apakah ada kos yang dekat dengan UVERS?",
+#         "Apakah Universitas Universal memiliki nama kos-kosan yang dekat dengan kampus?",
+#         "Apakah universitas ini memiliki layanan bantuan dalam mencari kos-kosan yang sesuai dengan kebutuhan calon mahasiswa?",
+#         "Bagaimana cara mencari kos-kosan yang dekat dengan universitas? Apakah ada sumber atau media yang disarankan?",
+#         "Apakah kos-kosan dekat universitas terdapat fasilitas yang memadai seperti internet, tempat parkir, atau akses transportasi umum?",
+#         "Apakah kos-kosan dekat universitas tersedia dalam berbagai tipe kamar atau hanya satu tipe kamar saja?",
+#         "Berapa harga rata-rata kos-kosan yang dekat dengan universitas?"
+#       ]
 
 # for s in sentence:
 #     tokens = tokenization(s)
