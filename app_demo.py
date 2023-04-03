@@ -76,7 +76,7 @@ def get_response(msg):
         # return response
     
         # print(f"{bot_name}: Saya tidak mengerti...Tolong masukan kata kunci yang lain")
-        return ("Hmm saya tidak mengerti...Tolong masukan kata kunci yang lain!")
+        return ("Maaf, saya tidak mengerti maksud Anda. Bisakah Anda memeriksa kembali kalimat Anda untuk memastikan tidak ada kesalahan pengetikan?. Untuk bantuan lebih lanjut, mohon hubungi nomor layanan pelanggan kami di 0778 - 473399/466869 dan Whatsapp Official Uvers di 6285272161218 atau kirimkan email ke info@uvers.ac.id. Terima kasih.")
 
 if __name__ == "__main__":
     print("Anda telah terhubungan dengan Uvers (ketik 'quit' untuk mengakhiri percakapan)")
