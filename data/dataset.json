@@ -15,21 +15,7 @@
         "Halo, dengan Humas UVERS disini, ada yang bisa kami bantu?"
       ]
     },
-    {
-      "tag": "prosedur__pendaftaran",
-      "patterns": [
-        "Bagaimana cara mendaftar ke universitas tersebut?",
-        "Bagaimana proses atau prosedur pendaftaran mahasiswa baru di UVERS",
-        "Cara mendaftar mahasiswa baru di UVERS seperti apa?",
-        "Langkah-langkah pendaftaran mahasiswa baru di universitas ini apa saja?",
-        "Bagaimana cara mengetahui status pendaftaran saya?",
-        "Apakah ada seleksi atau tes yang harus diikuti untuk bisa diterima di Universitas Universal?",
-        "Bagaimana cara mengetahui apakah pendaftaran saya sudah diterima atau belum?"
-      ],
-      "responses": [
-        "-Proses pendaftaran bisa dilakukan dengan membeli formulir pendaftaraan secara online melalui https://bit.ly/whatsapp_officialUVERS atau datang langsung ke kantor penerimaan mahasiswa baru di UVERS\n-Melakukan pendaftaran secara online melalui https://bit.ly/joinUVERS setelah mendapatkan form registrasi\n-Melaksanakan Ujian Saringan Masuk secara online\n-Menunggu pengumuman penerimaan mahasiswa baru\n-Melakukan registrasi ulang untuk secara resmi terdaftar sebagai mahasiswa baru"
-      ]
-    },
+
     {
       "tag": "persyaratan__masuk",
       "patterns": [
@@ -61,6 +47,19 @@
       ],
       "responses": [
         "Untuk rincian biaya pendidikan di UVERS adalah sebagai berikut:\n-Biaya Pangkal dan Pembangunan= Rp0\n-Formulir= Rp100.000\n-Jas Almamater + Biaya Administrasi= Rp600.000\n-Biaya SPP Tetap= Rp4.000.000\n-Biaya SPP Per SKS (Program Studi PBM)= Rp230.000\n-Biaya SPP Per SKS(Program Studi Lainnya)= Rp180.000"
+      ]
+    },
+    {
+      "tag": "pembayaran",
+      "patterns": [
+        "Apakah SPP bisa dicicil?",
+        "Bagaimana cara pembayaran SPP yang tersedia?",
+        "Apakah ada opsi pembayaran cicilan untuk SPP?",
+        "Apa konsekuensi jika saya terlambat membayar SPP?",
+        "Bisakah saya melakukan pembayaran SPP secara online melalui internet banking atau aplikasi e-wallet?"
+      ],
+      "responses": [
+        "Untuk memudahkan proses pembayaran, SPP dapat dicicil dengan 5 kali pembayaran. Waktu pembayaran SPP paling lambat adalah tanggal 12 setiap bulannya. Jika melewati tenggat waktu pembayaran akan dikenakan denda Rp5.000/hari. Setiap cicilan pembayaran, nominal pembayaran beserta denda (jika ada) akan tertera setelah menginputkan nomor virtual account. Pembayaran cicilan SPP ke-1 adalah syarat mahasiswa diberikan status aktif dan bisa mengikuti perkuliahan\nPembayaran dapat dilakukan melalui bank BCA, melalui 3 cara:\n- Melalui M-Banking : https://bit.ly/M-Banking_UVERS\n- Melalui Mesin ATM : https://bit.ly/ATM_Uvers\n- Melalui Setoran tunai : https://bit.ly/SetorTunai_UVERS\nBagi mahasiswa yang tidak memiliki rekening bank BCA dapat dicoba melalui bank masing-masing."
       ]
     },
     {
@@ -111,7 +110,7 @@
         "Apakah tersedia fasilitas transportasi yang terintegrasi dengan kampus universitas?"
       ],
       "responses": [
-        "UVERS memiliki perpustakaan yang cukup lengkap dengan koleksi buku dan jurnal yang terbaru. Selain itu, perpustakaan kami juga dilengkapi dengan ruang baca dan ruang diskusi yang nyaman. UVERS memiliki beberapa laboratorium yang dilengkapi dengan peralatan canggih dan tenaga ahli yang kompeten di bidangnya. Selain itu, kami juga sering mengadakan kegiatan riset dan praktikum yang melibatkan mahasiswa dan dosen. Selain itu UVERS juga memiliki lapangan olahraga seperti, basket, badminton, dan tenis meja. Mahasiswa dapat menggunakan fasilitas ini secara gratis dan kami juga menyediakan berbagai kegiatan olahraga yang bisa diikuti. UVERS juga memiliki lapangan parkir yang luas bagi kendaraan roda empat atau roda dua."
+        "UVERS memiliki perpustakaan dengan koleksi buku yang cukup lengkap dan jurnal yang terbaru. Selain itu, perpustakaan kami juga dilengkapi dengan ruang baca dan ruang diskusi yang nyaman. UVERS memiliki beberapa laboratorium yang dilengkapi dengan peralatan canggih dan tenaga ahli yang kompeten di bidangnya. UVERS juga memiliki lapangan olahraga seperti, lapangan basket, lapangan badminton, dan tenis meja. Mahasiswa dapat menggunakan fasilitas ini secara gratis dan kami juga menyediakan berbagai kegiatan olahraga yang bisa diikuti. UVERS juga memiliki lapangan parkir yang luas bagi kendaraan roda empat atau roda dua. Universitas Universal juga memiliki area kantin yang bersih dan nyaman untuk memfasilitasi kegiatan belajar dan mengajar. Kantin kami menyediakan makanan dan minuman vegetarian yang berkualitas, sehat, dan beragam"
       ]
     },
     {
@@ -125,21 +124,6 @@
       ],
       "responses": [
         "Ada banyak program studi yang ditawarkan di UVERS, mulai dari teknik, bisnis, hingga seni. Kamu bisa mengeceknya pada https://bit.ly/program_studiUVERS untuk mendapatkan informasi lebih lengkap mengenai program studi. Kamu juga bisa datang langsung ke bagian penerimaan mahasiswa baru untuk bertanya mengenai program studi"
-      ]
-    },
-    {
-      "tag": "detail__tif",
-      "patterns": [
-        "Apa saja keunggulan dan kelemahan dari  Teknik Informatika?",
-        "Bagaimana kurikulum di Teknik Informatika di universitas ini dibandingkan dengan di universitas lain?",
-        "Apa saja pilihan mata kuliah yang tersedia dalam Teknik Informatika?",
-        "Bagaimana karir yang tersedia setelah lulus dari Teknik Informatika?",
-        "Apa saja persyaratan untuk mendaftar ke TIF?",
-        "Apakah ada kegiatan atau klub mahasiswa yang terkait dengan Teknik Informatika?",
-        "Apakah ada kesempatan untuk magang atau program penelitian dalam Teknik Informatika?"
-      ],
-      "responses": [
-        "Teknik Informatika...Untuk lebih lengkapnya dapat kunjungi http://uvers.ac.id/prodi/informatika/"
       ]
     },
     {
@@ -159,7 +143,7 @@
         "Apa saja program studi yang sudah terakreditasi di universitas ini dan apakah terdapat program studi yang sedang dalam proses akreditasi?"
       ],
       "responses": [
-        "Universitas kami sudah terakreditasi oleh Badan Akreditasi Nasional Perguruan Tinggi atau BAN-PT. Kamu bisa mengunjungi situs web BAN-PT dan mencari daftar perguruan tinggi terakreditasi. Universitas kami pasti terdaftar di sana. Universitas yang terakreditasi telah teruji kualitas pendidikannya melalui proses evaluasi oleh badan akreditasi. Universitas yang terakreditasi juga diakui oleh pemerintah dan industri sebagai lembaga pendidikan yang dapat diandalkan."
+        "Maaf, saat ini kampus kami belum terakreditasi oleh Badan Akreditasi Nasional Perguruan Tinggi atau BAN-PT. Namun, kampus kami terus berusaha untuk meningkatkan kualitas pendidikan dan memenuhi persyaratan untuk mendapatkan akreditasi di masa yang akan datang. Meskipun kampus belum terakreditasi, kami tetap memberikan pendidikan yang berkualitas dan berupaya untuk memberikan pengalaman belajar yang terbaik bagi mahasiswa. Sebagai calon mahasiswa, Anda dapat mempertimbangkan beberapa hal, seperti reputasi kampus, program studi yang ditawarkan, fasilitas yang tersedia, serta prospek karir setelah lulus. Kami juga siap membantu dan memberikan informasi yang dibutuhkan jika Anda memerlukan bantuan dalam mempertimbangkan opsi pendidikan yang tepat untuk Anda."
       ]
     },
     {
