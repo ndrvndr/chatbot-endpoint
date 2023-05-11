@@ -1,31 +1,40 @@
 import json
-with open('data/dataset.json', 'r') as f:
+
+with open("data/dataset.json", "r") as f:
     dataset = json.load(f)
-    
+
 import numpy as np
 import string
 
 import nltk
-nltk.download('stopwords')
+
+nltk.download("stopwords")
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
-stop_words = set(stopwords.words('indonesian'))
+
+stop_words = set(stopwords.words("indonesian"))
 
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 
-from nlp_function import tokenization, remove_punctuation, remove_stopWords, stemming_token, vectorization
+from nlp_function import (
+    tokenization,
+    remove_punctuation,
+    remove_stopWords,
+    stemming_token,
+    vectorization,
+)
 from nn_model import neural_network
 
 all_token = []
 tags = []
 xy = []
 
-for dataset in dataset['intents']:
-    tag = dataset['tag']
+for dataset in dataset["intents"]:
+    tag = dataset["tag"]
     tags.append(tag)
-    for pattern in dataset['patterns']:
+    for pattern in dataset["patterns"]:
         w = tokenization(pattern)
         all_token.extend(w)
         xy.append((w, tag))
@@ -38,8 +47,7 @@ tags = sorted(set(tags))
 
 processed_sentence = []
 for words, label in xy:
-
-    words = ''.join(c for c in ' '.join(words) if c not in string.punctuation)
+    words = "".join(c for c in " ".join(words) if c not in string.punctuation)
     words = word_tokenize(words)
     words = [word for word in words if word.lower() not in stop_words]
     words = [stemming_token(w) for w in words]
@@ -48,8 +56,7 @@ for words, label in xy:
 X_train = []
 y_train = []
 
-for (pattern_sentence, tag) in processed_sentence:
-    
+for pattern_sentence, tag in processed_sentence:
     bag = vectorization(pattern_sentence, all_token)
 
     X_train.append(bag)
@@ -59,7 +66,7 @@ for (pattern_sentence, tag) in processed_sentence:
 X_train = np.array(X_train)
 y_train = np.array(y_train)
 
-# Hyper-parameters 
+# Hyper-parameters
 num_epochs = 1000
 batch_size = 8
 learning_rate = 0.001
@@ -68,8 +75,8 @@ hidden_layer = 8
 output_layer = len(tags)
 print(input_layer)
 
-class ChatDataset(Dataset):
 
+class ChatDataset(Dataset):
     def __init__(self):
         self.n_samples = len(X_train)
         self.x_data = X_train
@@ -81,47 +88,47 @@ class ChatDataset(Dataset):
     def __len__(self):
         return self.n_samples
 
-dataset = ChatDataset()
-train_loader = DataLoader(dataset=dataset,
-                          batch_size=batch_size,
-                          shuffle=True,
-                          num_workers=0)
 
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+dataset = ChatDataset()
+train_loader = DataLoader(
+    dataset=dataset, batch_size=batch_size, shuffle=True, num_workers=0
+)
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = neural_network(input_layer, hidden_layer, output_layer).to(device)
 
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
 for epoch in range(num_epochs):
-    for (words, labels) in train_loader:
+    for words, labels in train_loader:
         words = words.to(device)
         labels = labels.to(dtype=torch.long).to(device)
-        
+
         outputs = model(words)
-        
+
         loss = criterion(outputs, labels)
-        
+
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
-        
-    if (epoch+1) % 100 == 0:
-        print (f'Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}')
+
+    if (epoch + 1) % 100 == 0:
+        print(f"Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}")
 
 
-print(f'final loss: {loss.item():.4f}')
+print(f"final loss: {loss.item():.4f}")
 
 data = {
-"model_state": model.state_dict(),
-"input_layer": input_layer,
-"hidden_layer": hidden_layer,
-"output_layer": output_layer,
-"all_token": all_token,
-"tags": tags
+    "model_state": model.state_dict(),
+    "input_layer": input_layer,
+    "hidden_layer": hidden_layer,
+    "output_layer": output_layer,
+    "all_token": all_token,
+    "tags": tags,
 }
 
 FILE = "data/data.pth"
 torch.save(data, FILE)
 
-print(f'training complete. file saved to {FILE}')
+print(f"training complete. file saved to {FILE}")
