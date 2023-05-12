@@ -1,16 +1,13 @@
-import random
-
-import nltk
-
-nltk.download("stopwords")
-from nltk.corpus import stopwords
-from string import punctuation
-
 import json
+import torch
+import nltk
+import random
 
 with open("data/dataset.json", "r") as json_data:
     dataset = json.load(json_data)
 
+from nltk.corpus import stopwords
+from string import punctuation
 from nlp_function import (
     tokenization,
     stemming_token,
@@ -18,7 +15,8 @@ from nlp_function import (
 )
 from nn_model import neural_network
 
-import torch
+nltk.download("stopwords")
+
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 FILE = "data/data.pth"
@@ -57,6 +55,7 @@ def get_response(msg):
 
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
+    print(prob)
 
     if prob.item() > 0.75:
         for intent in dataset["intents"]:

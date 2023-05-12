@@ -1,16 +1,13 @@
 import nltk
-
-nltk.download("punkt")
-nltk.download("stopwords")
-from nltk.corpus import stopwords
-
-stopwords_list = stopwords.words("indonesian")
-
 import string
 import numpy as np
 
-import Sastrawi
+from nltk.corpus import stopwords
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
+
+nltk.download("punkt")
+nltk.download("stopwords")
+stopwords_list = stopwords.words("indonesian")
 
 factory = StemmerFactory()
 stemmer = factory.create_stemmer()
@@ -37,8 +34,6 @@ def stemming_token(unStopWords_token):
 
 
 def vectorization(clean_token, all_token):
-    tokenize_text = [stemming_token(word) for word in clean_token]
-
     bag = np.zeros(len(all_token), dtype=np.float32)
     for idx, word in enumerate(all_token):
         if word in clean_token:

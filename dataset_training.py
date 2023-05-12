@@ -1,23 +1,16 @@
 import json
+import nltk
+import string
+import numpy as np
+import torch
+import torch.nn as nn
 
 with open("data/dataset.json", "r") as f:
     dataset = json.load(f)
 
-import numpy as np
-import string
-
-import nltk
-
-nltk.download("stopwords")
-from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
-
-stop_words = set(stopwords.words("indonesian"))
-
-import torch
-import torch.nn as nn
+from nltk.corpus import stopwords
 from torch.utils.data import Dataset, DataLoader
-
 from nlp_function import (
     tokenization,
     remove_punctuation,
@@ -26,6 +19,9 @@ from nlp_function import (
     vectorization,
 )
 from nn_model import neural_network
+
+nltk.download("stopwords")
+stop_words = set(stopwords.words("indonesian"))
 
 all_token = []
 tags = []
