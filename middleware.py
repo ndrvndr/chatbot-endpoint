@@ -5,6 +5,7 @@ from app_demo import get_response
 app = Flask(__name__)
 CORS(app)
 
+
 @app.post("/request")
 def resource():
     text = request.get_json().get("message")
@@ -12,5 +13,6 @@ def resource():
     message = {"answer": response}
     return jsonify(message)
 
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
