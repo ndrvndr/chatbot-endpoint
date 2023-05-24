@@ -1,6 +1,21 @@
 {
   "intents": [
     {
+      "tag": "prosedur__pendaftaran",
+      "patterns": [
+        "Bagaimana cara mendaftar ke universitas tersebut?",
+        "Bagaimana proses atau prosedur pendaftaran mahasiswa baru di UVERS",
+        "Cara mendaftar mahasiswa baru di UVERS seperti apa?",
+        "Langkah-langkah pendaftaran mahasiswa baru di universitas ini apa saja?",
+        "Bagaimana cara mengetahui status pendaftaran saya?",
+        "Apakah ada seleksi atau tes yang harus diikuti untuk bisa diterima di Universitas Universal?",
+        "Bagaimana cara mengetahui apakah pendaftaran saya sudah diterima atau belum?"
+      ],
+      "responses": [
+        "-Proses pendaftaran bisa dilakukan dengan membeli formulir pendaftaraan secara online melalui WhatsApp Official UVERS (https://bit.ly/whatsapp_officialUVERS) atau datang langsung ke kantor penerimaan mahasiswa baru di UVERS\n-Melakukan pendaftaran secara online (https://bit.ly/joinUVERS) setelah mendapatkan form registrasi\n-Melaksanakan Ujian Saringan Masuk secara online\n-Menunggu pengumuman penerimaan mahasiswa baru\n-Melakukan registrasi ulang untuk secara resmi terdaftar sebagai mahasiswa baru"
+      ]
+    },
+    {
       "tag": "persyaratan__masuk",
       "patterns": [
         "Apa saja dokumen yang diperlukan sebagai syarat untuk masuk ke Universitas Universal?",
