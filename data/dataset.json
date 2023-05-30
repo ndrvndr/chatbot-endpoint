@@ -151,6 +151,35 @@
       ]
     },
     {
+      "tag": "kerjasama",
+      "patterns": [
+        "Apa saja contoh kerja sama Universitas Universal dengan perusahaan dan organisasi eksternal dalam pengembangan kompetensi mahasiswa?",
+        "Apakah Universitas Universal menjalin kerja sama dengan organisasi di luar negeri juga? Jika iya, apa contohnya dan bagaimana manfaatnya bagi mahasiswa?",
+        "Apakah universitas ini memiliki koneksi internasional atau program pertukaran pelajar dengan institusi lain di luar negeri?",
+        "Apakah uvers memiliki kemitraan dengan lembaga penelitian atau industri terkemuka?",
+        "Bagaimana hubungan universitas universal dengan industri atau perusahaan terkait bidang studi saya?"
+      ],
+      "responses": [
+        "Universitas Universal telah menjalin kerja sama dengan berbagai organisasi untuk pengembangan kompetensi mahasiswa. Kerja sama ini didasarkan pada misi universitas untuk Menjalin kerjasama dengan pelbagai institusi, baik di dalam maupun di luar negeri. Beberapa contoh kerja sama yang telah terjalin antara Universitas Universal dengan perusahaan dan organisasi eksternal meliputi: Glints, Oracle Academy, PT Bursa Efek Indonesia, J&T Express, PT. Kresna Graha Sekurindo TBK, PT. MNC Sekuritas, dan lain-lain. Daftar kerja sama Universitas Universal dengan perusahaan dan organisasi lainnya tidak terbatas pada contoh di atas. Untuk melihat lebih banyak kerja sama yang telah terjalin, Anda dapat mengunjungi bit.ly/kerjasamaUvers untuk informasi lebih lanjut. Menjalin kemitraan dengan organisasi eksternal, bertujuan untuk meningkatkan keterampilan praktis, pengetahuan, dan jaringan mahasiswa, sehingga mereka siap menghadapi tantangan dunia kerja."
+      ]
+    },
+    {
+      "tag": "prestasi",
+      "patterns": [
+        "Apa saja prestasi akademik yang telah diraih oleh universitas ini dalam bidang studi yang saya minati?",
+        "Apakah ada kompetisi akademik atau kegiatan ekstrakurikuler yang telah menghasilkan prestasi bagi mahasiswa universitas ini?",
+        "Apa prestasi terbaru yang telah diraih oleh universitas ini?",
+        "Bisakah Anda menyebutkan beberapa penghargaan yang pernah diterima oleh universitas ini dalam beberapa tahun terakhir?",
+        "Berapa banyak mahasiswa dari universitas ini yang telah memenangkan penghargaan atau kompetisi akademik?",
+        "Apakah ada fakultas atau departemen tertentu di universitas ini yang telah meraih prestasi khusus?",
+        "Bisakah Anda menyebutkan beberapa prestasi mahasiswa individual yang dihasilkan oleh universitas ini?",
+        "Apakah ada program atau kegiatan khusus di universitas ini yang telah memperoleh pengakuan atas prestasinya?"
+      ],
+      "responses": [
+        "Universitas Universal telah mendapatkan penghargaan lokal maupun internasional 2 tahun sejak berdirinya yaitu pada tahun 2017. Prestasi ini merupakan hasil kerja keras dan kebanggaan bagi Universitas Universal. Untuk melihat daftar prestasi lengkap, Anda dapat mengunjungi link berikut bit.ly/prestasiUvers."
+      ]
+    },
+    {
       "tag": "kos",
       "patterns": [
         "Apakah ada kos yang dekat dengan UVERS?",
