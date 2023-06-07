@@ -153,11 +153,13 @@
     {
       "tag": "kerjasama",
       "patterns": [
+        "Uvers bekerja sama dengan kampus apa saja?",
         "Apa saja contoh kerja sama Universitas Universal dengan perusahaan dan organisasi eksternal dalam pengembangan kompetensi mahasiswa?",
-        "Apakah Universitas Universal menjalin kerja sama dengan organisasi di luar negeri juga? Jika iya, apa contohnya dan bagaimana manfaatnya bagi mahasiswa?",
-        "Apakah universitas ini memiliki koneksi internasional atau program pertukaran pelajar dengan institusi lain di luar negeri?",
-        "Apakah uvers memiliki kemitraan dengan lembaga penelitian atau industri terkemuka?",
-        "Bagaimana hubungan universitas universal dengan industri atau perusahaan terkait bidang studi saya?"
+        "Apakah Universitas Universal memiliki koneksi internasional atau program pertukaran pelajar dengan institusi lain di luar negeri?",
+        "Apakah Uvers memiliki kerja sama dengan lembaga penelitian atau industri terkemuka?",
+        "Apakah ada kerjasama internasional yang memungkinkan mahasiswa untuk berpartisipasi dalam program pertukaran pelajar atau belajar di luar negeri?",
+        "Apakah ada kesempatan bagi mahasiswa untuk terlibat dalam penelitian atau proyek dengan fakultas atau perguruan tinggi lain?",
+        "Apakah ada program magang atau kerja sama dengan startup atau perusahaan rintisan di Uvers?"
       ],
       "responses": [
         "Universitas Universal telah menjalin kerja sama dengan berbagai organisasi untuk pengembangan kompetensi mahasiswa. Kerja sama ini didasarkan pada misi universitas untuk Menjalin kerjasama dengan pelbagai institusi, baik di dalam maupun di luar negeri. Beberapa contoh kerja sama yang telah terjalin antara Universitas Universal dengan perusahaan dan organisasi eksternal meliputi: Glints, Oracle Academy, PT Bursa Efek Indonesia, J&T Express, PT. Kresna Graha Sekurindo TBK, PT. MNC Sekuritas, dan lain-lain. Daftar kerja sama Universitas Universal dengan perusahaan dan organisasi lainnya tidak terbatas pada contoh di atas. Untuk melihat lebih banyak kerja sama yang telah terjalin, Anda dapat mengunjungi bit.ly/kerjasamaUvers untuk informasi lebih lanjut. Menjalin kemitraan dengan organisasi eksternal, bertujuan untuk meningkatkan keterampilan praktis, pengetahuan, dan jaringan mahasiswa, sehingga mereka siap menghadapi tantangan dunia kerja."
