@@ -151,30 +151,14 @@
       ]
     },
     {
-      "tag": "kerjasama",
-      "patterns": [
-        "Uvers bekerja sama dengan kampus apa saja?",
-        "Apa saja contoh kerja sama Universitas Universal dengan perusahaan dan organisasi eksternal dalam pengembangan kompetensi mahasiswa?",
-        "Apakah Universitas Universal memiliki koneksi internasional atau program pertukaran pelajar dengan institusi lain di luar negeri?",
-        "Apakah Uvers memiliki kerja sama dengan lembaga penelitian atau industri terkemuka?",
-        "Apakah ada kerjasama internasional yang memungkinkan mahasiswa untuk berpartisipasi dalam program pertukaran pelajar atau belajar di luar negeri?",
-        "Apakah ada kesempatan bagi mahasiswa untuk terlibat dalam penelitian atau proyek dengan fakultas atau perguruan tinggi lain?",
-        "Apakah ada program magang atau kerja sama dengan startup atau perusahaan rintisan di Uvers?"
-      ],
-      "responses": [
-        "Universitas Universal telah menjalin kerja sama dengan berbagai organisasi untuk pengembangan kompetensi mahasiswa. Kerja sama ini didasarkan pada misi universitas untuk Menjalin kerjasama dengan pelbagai institusi, baik di dalam maupun di luar negeri. Beberapa contoh kerja sama yang telah terjalin antara Universitas Universal dengan perusahaan dan organisasi eksternal meliputi: Glints, Oracle Academy, PT Bursa Efek Indonesia, J&T Express, PT. Kresna Graha Sekurindo TBK, PT. MNC Sekuritas, dan lain-lain. Daftar kerja sama Universitas Universal dengan perusahaan dan organisasi lainnya tidak terbatas pada contoh di atas. Untuk melihat lebih banyak kerja sama yang telah terjalin, Anda dapat mengunjungi bit.ly/kerjasamaUvers untuk informasi lebih lanjut. Menjalin kemitraan dengan organisasi eksternal, bertujuan untuk meningkatkan keterampilan praktis, pengetahuan, dan jaringan mahasiswa, sehingga mereka siap menghadapi tantangan dunia kerja."
-      ]
-    },
-    {
       "tag": "prestasi",
       "patterns": [
-        "Apa saja prestasi akademik yang telah diraih oleh universitas ini dalam bidang studi yang saya minati?",
-        "Apakah ada kompetisi akademik atau kegiatan ekstrakurikuler yang telah menghasilkan prestasi bagi mahasiswa universitas ini?",
-        "Apa prestasi terbaru yang telah diraih oleh universitas ini?",
-        "Bisakah Anda menyebutkan beberapa penghargaan yang pernah diterima oleh universitas ini dalam beberapa tahun terakhir?",
-        "Berapa banyak mahasiswa dari universitas ini yang telah memenangkan penghargaan atau kompetisi akademik?",
+        "Apa saja prestasi terbaru akademik yang telah diraih oleh universitas ini?",
+        "Apakah ada kompetisi akademik atau kegiatan ekstrakurikuler yang telah meraih penghargaan bagi mahasiswa universitas ini?",
+        "Bisakah Anda menyebutkan beberapa prestasi yang pernah diterima oleh universitas ini dalam beberapa tahun terakhir?",
+        "Berapa banyak mahasiswa dari universitas ini yang telah mendapatkan penghargaan dalam kompetisi akademik?",
         "Apakah ada fakultas atau departemen tertentu di universitas ini yang telah meraih prestasi khusus?",
-        "Bisakah Anda menyebutkan beberapa prestasi mahasiswa individual yang dihasilkan oleh universitas ini?",
+        "Bisakah Anda menyebutkan beberapa penghargaan mahasiswa individual yang dihasilkan oleh universitas ini?",
         "Apakah ada program atau kegiatan khusus di universitas ini yang telah memperoleh pengakuan atas prestasinya?"
       ],
       "responses": [
@@ -190,7 +174,7 @@
         "Bagaimana cara mencari kos-kosan yang dekat dengan universitas? Apakah ada sumber atau media yang disarankan?",
         "Apakah kos-kosan dekat universitas terdapat fasilitas yang memadai seperti internet, tempat parkir, atau akses transportasi umum?",
         "Apakah kos-kosan dekat universitas tersedia dalam berbagai tipe kamar atau hanya satu tipe kamar saja?",
-        "Berapa harga rata-rata kos-kosan yang dekat dengan universitas?",
+        "Berapa banyak kos-kosan yang dekat dengan universitas universal?",
         "Bisakah Anda merekomendasikan kos-kosan yang dekat dengan UVERS?"
       ],
       "responses": [
