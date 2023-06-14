@@ -1,6 +1,27 @@
 {
   "intents": [
     {
+      "tag": "pembuka",
+      "patterns": [
+        "Halo",
+        "Hallo",
+        "Hello",
+        "Hi",
+        "Hai",
+        "Hei",
+        "Selamat Pagi",
+        "Selamat Siang",
+        "Selamat Sore",
+        "Selamat Malam",
+        "Test",
+        "Tes",
+        "Saya butuh bantuan"
+      ],
+      "responses": [
+        "Halo! Selamat datang, Ada yang bisa saya bantu, nih? Saya siap menjawab pertanyaanmu atau membantu kamu menemukan informasi yang kamu butuhkan. Ayo, kita mulai ngobrol"
+      ]
+    },
+    {
       "tag": "prosedur__pendaftaran",
       "patterns": [
         "Bagaimana cara mendaftar ke universitas ini?",

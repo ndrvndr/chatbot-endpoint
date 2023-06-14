@@ -63,11 +63,11 @@ X_train = np.array(X_train)
 y_train = np.array(y_train)
 
 # Hyper-parameters
-num_epochs = 1000
-batch_size = 8
-learning_rate = 0.001
+num_epochs = 1800
+batch_size = 16
+learning_rate = 0.0001
 input_layer = len(X_train[0])
-hidden_layer = 8
+hidden_layer = 10
 output_layer = len(tags)
 print(input_layer)
 
