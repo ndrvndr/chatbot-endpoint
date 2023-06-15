@@ -44,14 +44,13 @@
     {
       "tag": "persyaratan__masuk",
       "patterns": [
-        "Apa saja persyaratan umum untuk masuk ke uvers?",
-        "Apa saja dokumen yang diperlukan sebagai syarat untuk masuk ke Universitas Universal?",
+        "Apa saja persyaratan untuk mendaftar ke uvers?",
+        "Apa saja dokumen yang diperlukan sebagai syarat untuk daftar ke Universitas Universal?",
         "Apakah UVERS memerlukan dokumen tambahan seperti essay atau statement of purpose?",
         "Apa saja persyaratan dokumen yang harus saya siapkan untuk masuk ke universitas ini?",
         "Apakah ada persyaratan bahasa Inggris yang harus dipenuhi?",
         "Apa saja persyaratan masuk yang harus dipenuhi oleh semua calon mahasiswa?",
-        "Apakah ada persyaratan masuk khusus untuk mahasiswa internasional yang ingin mendaftar ke universitas ini?",
-        "Apakah saya harus menyerahkan surat rekomendasi atau surat pengalaman kerja sebagai persyaratan untuk masuk di Universitas Universal?",
+        "Apakah ada persyaratan khusus bagi mahasiswa internasional yang ingin mendaftar?",
         "Apakah saya perlu mengirimkan dokumen transkrip nilai atau sertifikat lainnya untuk pendaftaran di UVERS?",
         "Apakah ada dokumen tambahan yang mungkin diperlukan tergantung pada program studi yang saya pilih?",
         "Apakah ada persyaratan khusus seperti portofolio atau pengalaman kerja yang perlu disiapkan?",
@@ -143,14 +142,14 @@
     {
       "tag": "fasilitas",
       "patterns": [
-        "Apa saja fasilitas akademik yang tersedia di universitas ini?",
-        "Apakah fasilitas perpustakaan tersedia di universitas?",
-        "Apa jenis fasilitas olahraga yang tersedia di universitas?",
-        "Apakah ada laboratorium komputer di Universitas Universal?",
+        "Apa saja fasilitas yang ada di universitas universal?",
+        "Apakah perpustakaan tersedia di universitas ini?",
+        "Apa fasilitas olahraga yang tersedia di uvers?",
+        "Apakah ada lab komputer di Universitas Universal?",
         "Apakah ada klub atau organisasi mahasiswa yang aktif di universitas?",
-        "Apa fasilitas keamanan yang tersedia di kampus universitas?",
+        "Apa fasilitas keamanan tersedia di kampus ini?",
         "Apakah ada tempat parkir yang tersedia untuk mahasiswa uvers?",
-        "Apakah tersedia tempat makan atau kantin yang terjangkau di kampus universitas?",
+        "Apakah tersedia kantin di uvers?",
         "Apakah ada pusat karir atau layanan penempatan kerja untuk mahasiswa?",
         "Apakah tersedia fasilitas komputer dan internet atau wifi yang dapat digunakan oleh mahasiswa di kampus universitas?",
         "Apakah ada tempat untuk istirahat atau relaksasi seperti taman atau ruang santai di kampus universitas?",
@@ -202,14 +201,14 @@
     {
       "tag": "prestasi",
       "patterns": [
-        "Apa saja prestasi terbaru akademik yang telah diraih oleh universitas ini?",
-        "Apakah ada kompetisi akademik atau kegiatan ekstrakurikuler yang telah meraih penghargaan bagi mahasiswa universitas ini?",
-        "Bisakah Anda menyebutkan beberapa prestasi yang pernah diterima oleh universitas ini dalam beberapa tahun terakhir?",
-        "Berapa banyak mahasiswa dari universitas ini yang telah mendapatkan penghargaan dalam kompetisi akademik?",
-        "Apakah ada fakultas atau departemen tertentu di universitas ini yang telah meraih prestasi khusus?",
-        "Bisakah Anda menyebutkan beberapa penghargaan mahasiswa individual yang dihasilkan oleh universitas ini?",
-        "Apakah ada program atau kegiatan khusus di universitas ini yang telah memperoleh pengakuan atas prestasinya?",
-        "Apakah universitas memiliki penghargaan khusus yang diakui baik secara nasional maupun internasional?",
+        "Apa saja prestasi yang telah diraih oleh universitas ini?",
+        "Apakah ada kompetisi yang telah meraih penghargaan bagi universitas ini?",
+        "Bisakah Anda menyebutkan beberapa prestasi yang pernah diterima oleh uvers?",
+        "Berapa banyak mahasiswa dari universitas ini yang telah mendapatkan penghargaan?",
+        "Apakah ada fakultas di universitas ini yang telah meraih prestasi khusus?",
+        "Bisakah Anda menyebutkan beberapa penghargaan mahasiswa yang dihasilkan oleh universitas universal?",
+        "Apakah ada program atau kegiatan khusus di uvers yang telah memperoleh pengakuan atas prestasinya?",
+        "Apakah universitas ini memiliki penghargaan khusus yang diakui baik secara nasional maupun internasional?",
         "Apakah ada alumni yang telah meraih prestasi di tingkat nasional atau internasional setelah lulus dari universitas ini?",
         "Dapatkah Anda memberikan contoh prestasi yang dihasilkan oleh para mahasiswa universitas ini dalam bidang akademik, riset, olahraga, seni, atau kegiatan lainnya?"
       ],
@@ -254,6 +253,26 @@
       ],
       "responses": [
         "Di sekitar UVERS terdapat banyak pilihan kos-kosan yang dapat dipilih. Namun, untuk menemukan kos yang tepat sesuai dengan keinginan dan kebutuhan kamu, mungkin kamu bisa mencari informasi mengenai kos-kosan dari media online seperti aplikasi pencari kos-kosan (mamikos.com) atau grup Facebook khusus kos-kosan di daerah Batam. Biasanya, informasi tersebut cukup akurat dan dapat membantu kamu dalam mencari kos-kosan yang diinginkan. Namun saya akan coba bantu kamu, silahkan kamu kunjungi bit.ly/kosSekitarUvers untuk melihat lokasi kos-kosan yang berada disekitar UVERS. Semoga membantu kamu dalam mencari kos-kosan disekitar UVERS"
+      ]
+    },
+    {
+      "tag": "nomor__telepon",
+      "patterns": [
+        "Bagaimana cara saya mendapatkan nomor administrasi universitas?",
+        "Apakah Anda bisa memberikan nomor administrasi atau UCC (Pusat Karir Universitas)",
+        "Apakah Anda dapat memberikan nomor telepon atau kontak vihara?",
+        "Apakah Anda bisa memberikan informasi kontak atau nomor telepon humas atau admin universitas?",
+        "Bagaimana saya bisa mendapatkan nomor telepon atau kontak pusat bahasa universitas?",
+        "Bisakah Anda memberikan nomor telepon atau kontak untuk admin kemahasiswaan universitas?",
+        "Ada nomor telepon atau kontak buat tanya-tanya soal kerjaan setelah lulus gak? Kayak Pusat Karir gitu?",
+        "Ada nomor buat kontak pusat bahasa di kampus?",
+        "Ada kontak humas atau admin universitas yang bisa dihubungi?",
+        "Aku pengen tahu nomor telepon vihara di kampus.",
+        "Ada nomor buat tanya admin kemahasiswaan?",
+        "Mau minta nomor telepon administrasi di kampus"
+      ],
+      "responses": [
+        "Tentu! Berikut nomor kontak yang bisa kamu hubungi: Admin Universitas: 085272161218 / 0778 - 473399/466869. Pusat Karir Uvers (UCC): 08524819885. Pusat Bahasa Universitas: 08998825888 / 082236011818. Vihara Universitas: (0778) 462901."
       ]
     }
   ]
