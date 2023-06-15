@@ -1,10 +1,14 @@
 import json
 import torch
 import nltk
-import random
 
 with open("data/dataset.json", "r") as json_data:
     dataset = json.load(json_data)
+    
+with open('data/additional_words.json') as file:
+    json_data = json.load(file)
+
+json_set = set(json_data)
 
 from nltk.corpus import stopwords
 from string import punctuation
@@ -41,8 +45,10 @@ def get_response(msg):
     sentence = tokenization(msg)
     sentence = [word.lower() for word in sentence if word not in punctuation]
     stop_words = set(stopwords.words("indonesian"))
+    stop_words.update(json_set)
     sentence = [word for word in sentence if not word in stop_words]
     sentence = [stemming_token(w) for w in sentence]
+    print(sentence)
 
     X = vectorization(sentence, all_token)
     X = X.reshape(1, X.shape[0])
@@ -61,7 +67,7 @@ def get_response(msg):
     if prob.item() > 0.7:
         for intent in dataset["intents"]:
             if tag == intent["tag"]:
-                return random.choice(intent["responses"])
+                return intent["responses"]
 
     else:
         return "Maaf, saya tidak mengerti maksud Anda. Bisakah Anda memeriksa kembali kalimat Anda untuk memastikan tidak ada kesalahan pengetikan?. Untuk bantuan lebih lanjut, mohon hubungi nomor layanan pelanggan kami di 0778 - 473399/466869 dan Whatsapp Official Uvers di 6285272161218 atau kirimkan email ke info@uvers.ac.id. Terima kasih."

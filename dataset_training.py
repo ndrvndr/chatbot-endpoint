@@ -7,6 +7,11 @@ import torch.nn as nn
 
 with open("data/dataset.json", "r") as f:
     dataset = json.load(f)
+    
+with open('data/additional_words.json') as file:
+    json_data = json.load(file)
+
+json_set = set(json_data)
 
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
@@ -22,6 +27,7 @@ from nn_model import neural_network
 
 nltk.download("stopwords")
 stop_words = set(stopwords.words("indonesian"))
+stop_words.update(json_set)
 
 all_token = []
 tags = []

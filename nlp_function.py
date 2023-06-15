@@ -1,3 +1,4 @@
+import json
 import nltk
 import string
 import numpy as np
@@ -5,9 +6,12 @@ import numpy as np
 from nltk.corpus import stopwords
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 
+with open("data/additional_words.json") as json_file:
+    additional_words = json.load(json_file)
+
 nltk.download("punkt")
 nltk.download("stopwords")
-stopwords_list = stopwords.words("indonesian")
+stopwords_list = stopwords.words("indonesian") + additional_words
 
 factory = StemmerFactory()
 stemmer = factory.create_stemmer()
