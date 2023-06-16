@@ -17,72 +17,62 @@
         "Tes",
         "Saya butuh bantuan"
       ],
-      "responses": [
-        "Halo! Selamat datang, Ada yang bisa saya bantu, nih? Saya siap menjawab pertanyaanmu atau membantu kamu menemukan informasi yang kamu butuhkan. Ayo, kita mulai ngobrol"
-      ]
+      "responses": "Halo! Selamat datang<br /><br />Ada yang bisa saya bantu, nih? Saya siap menjawab pertanyaanmu atau membantu kamu menemukan informasi yang kamu butuhkan.<br /><br />Ayo, kita mulai ngobrol"
     },
     {
       "tag": "prosedur__pendaftaran",
       "patterns": [
-        "Bagaimana cara mendaftar ke universitas ini?",
-        "Bagaimana proses atau prosedur pendaftaran mahasiswa baru di Uvers?",
-        "Cara mendaftar mahasiswa baru di Uvers seperti apa?",
-        "Langkah-langkah pendaftaran mahasiswa baru di universitas ini apa saja?",
-        "Bagaimana cara mengetahui status pendaftaran saya?",
-        "Apakah ada seleksi atau tes yang harus diikuti untuk bisa diterima di Universitas Universal?",
-        "Bagaimana cara mengetahui apakah pendaftaran saya sudah diterima atau belum?",
-        "Apa langkah-langkah yang harus saya ikuti, untuk mendaftar?",
-        "Apakah ada ujian masuk atau seleksi khusus yang harus saya ikuti sebagai bagian dari proses pendaftaran?",
-        "Bagaimana cara saya mendapatkan formulir pendaftaran?",
-        "Apakah ada bantuan atau panduan yang tersedia jika saya mengalami kesulitan dalam proses pendaftaran?",
-        "Bagaimana cara saya mengirimkan formulir pendaftaran, setelah selesai mengisinya?"
+        "Bagaimana cara mendaftar",
+        "Bagaimana proses atau prosedur pendaftaran mahasiswa baru",
+        "Cara mendaftar mahasiswa baru seperti apa?",
+        "Langkah-langkah pendaftaran mahasiswa baru apa saja",
+        "Bagaimana cara mengetahui status pendaftaran saya",
+        "Apakah ada seleksi atau tes yang harus diikuti untuk bisa diterima",
+        "Bagaimana cara mengetahui status pendaftaran saya sudah diterima atau belum",
+        "Apa langkah-langkah yang harus saya ikuti, untuk mendaftar",
+        "Apakah ada ujian masuk atau seleksi khusus yang harus saya ikuti, sebagai bagian dari proses pendaftaran",
+        "Bagaimana cara mendapatkan formulir pendaftaran"
       ],
-      "responses": [
-        "Proses pendaftaran bisa dilakukan dengan membeli formulir pendaftaraan secara online melalui WhatsApp Official UVERS (bit.ly/whatsappOfficialUvers) atau datang langsung ke kantor penerimaan mahasiswa baru di UVERS. Melakukan pendaftaran secara online (bit.ly/joinUvers) setelah mendapatkan form registrasi. Melaksanakan Ujian Saringan Masuk secara online. Menunggu pengumuman penerimaan mahasiswa baru. Melakukan registrasi ulang untuk secara resmi terdaftar sebagai mahasiswa baru. Jika kamu memerlukan bantuan lebih lanjut mengenai prosedur pendaftaran, dapat menghubungi kami di bit.ly/whatsappOfficialUvers "
-      ]
+      "responses": "Proses pendaftaran bisa dilakukan dengan:<br /><br />-Membeli formulir pendaftaraan secara online melalui <a href=\"https://bit.ly/whatsappOfficialUvers\">WhatsApp Official UVERS</a> atau datang langsung ke kantor penerimaan mahasiswa baru<br /><br />-Melakukan pendaftaran secara online melalui <a href=\"https://bit.ly/joinUvers\">Join UVERS</a> setelah mendapatkan form registrasi<br /><br />-Melaksanakan ujian saringan masuk secara online<br /><br />-Menunggu pengumuman penerimaan mahasiswa baru<br /><br />-Melakukan registrasi ulang untuk secara resmi terdaftar sebagai mahasiswa baru<br /><br />Jika kamu memerlukan bantuan lebih lanjut mengenai prosedur pendaftaran, dapat menghubungi <a href=\"https://bit.ly/whatsappOfficialUvers\">WhatsApp Official UVERS</a>"
     },
     {
       "tag": "persyaratan__masuk",
       "patterns": [
-        "Apa saja persyaratan untuk mendaftar ke uvers?",
-        "Apa saja dokumen yang diperlukan sebagai syarat untuk daftar ke Universitas Universal?",
-        "Apakah UVERS memerlukan dokumen tambahan seperti essay atau statement of purpose?",
-        "Apa saja persyaratan dokumen yang harus saya siapkan untuk masuk ke universitas ini?",
+        "Apa saja persyaratan untuk mendaftar",
+        "Apa saja dokumen yang diperlukan sebagai syarat untuk mendaftar",
+        "Apa saja yang harus saya lengkapi untuk mendaftar",
+        "berkas yang harus saya siapkan untuk masuk",
         "Apakah ada persyaratan bahasa Inggris yang harus dipenuhi?",
-        "Apa saja persyaratan masuk yang harus dipenuhi oleh semua calon mahasiswa?",
+        "Dokumen apa yang harus dilengkapi untuk mendaftar ?",
         "Apakah ada persyaratan khusus bagi mahasiswa internasional yang ingin mendaftar?",
-        "Apakah saya perlu mengirimkan dokumen transkrip nilai atau sertifikat lainnya untuk pendaftaran di UVERS?",
-        "Apakah ada dokumen tambahan yang mungkin diperlukan tergantung pada program studi yang saya pilih?",
+        "Apakah saya perlu mengirimkan transkrip nilai atau sertifikat lainnya untuk pendaftaran",
+        "Apakah ada dokumen atau berkas tambahan yang diperlukan tergantung program studi yang dipilih?",
         "Apakah ada persyaratan khusus seperti portofolio atau pengalaman kerja yang perlu disiapkan?",
         "Apakah ada syarat tambahan seperti tes kesehatan atau sertifikat vaksinasi yang perlu dipenuhi?"
       ],
-      "responses": [
-        "Dokumen yang diperlukan sebagai persyaratan masuk antara berikut: Scan E-KTP/PASPOR(WNA), Scan Akte Kelahiran, Scan Kartu Keluarga, Scan Surat Ganti Nama (Jika nama berbeda dengan Akte Kelahiran), Scan Ijazah SMA/SMK/MA/Paket C, Scan Surat Keterangan Lulus Sekolah (Bagi yang belum memiliki Ijazah), Pas Foto 3x4 Berwarna Terbaru (Tuliskan nama dibagian belakang)"
-      ]
+      "responses": "Dokumen yang diperlukan sebagai persyaratan masuk antara berikut:<br /><br />-Scan E-KTP/PASPOR(WNA)<br />-Scan Akte Kelahiran<br />-Scan Kartu Keluarga<br />-Scan Surat Ganti Nama (Jika nama berbeda dengan Akte Kelahiran)<br /><br />-Scan Ijazah SMA/SMK/MA/Paket C<br /><br />-Scan Surat Keterangan Lulus Sekolah (Bagi yang belum memiliki Ijazah)<br /><br />-Pas Foto 3x4 Berwarna Terbaru (Tuliskan nama dibagian belakang)"
     },
     {
       "tag": "biaya__pendidikan",
       "patterns": [
         "Berapa besar biaya yang harus dikeluarkan untuk masuk universitas ini?",
-        "Apakah ada biaya yang harus dibayar untuk pendaftaran di universitas ini? Jika ya, berapa besar biayanya?",
+        "Apakah ada biaya yang harus dibayar untuk pendaftaran",
         "Berapa biaya pendidikan untuk Universitas Universal?",
         "Apakah biaya pendaftaran sudah termasuk dalam biaya kuliah?",
         "Apakah biaya kuliah dan biaya lainnya sudah termasuk dalam biaya masuk?",
-        "Apakah biaya masuk bisa direfund atau dikembalikan jika saya memutuskan untuk tidak melanjutkan studi di universitas ini?",
-        "Apakah ada biaya tambahan yang harus dibayarkan jika mahasiswa mengambil program studi tertentu di UVERS?",
-        "Apa saja komponen biaya pendidikan yang harus saya bayar jika saya kuliah di UVERS?",
-        "Berapa biaya pendaftaran untuk menjadi mahasiswa baru di universitas ini?",
+        "Apakah ada biaya tambahan yang harus dibayarkan jika mengambil program studi tertentu",
+        "Apa saja komponen biaya pendidikan yang harus saya bayar",
+        "Berapa biaya pendaftaran untuk menjadi mahasiswa baru",
         "Apakah ada biaya tambahan selain biaya pendaftaran yang perlu saya persiapkan?",
-        "Apakah biaya masuk universitas berbeda antara program studi?",
+        "Apakah biaya masuk berbeda antara program studi?",
         "Apakah ada biaya yang tidak termasuk dalam biaya masuk, seperti biaya buku, seragam, dan lainnya?"
       ],
-      "responses": [
-        "Untuk rincian biaya pendidikan di UVERS adalah sebagai berikut: Biaya Pangkal dan Pembangunan= Rp0, Formulir= Rp100.000, Jas Almamater + Biaya Administrasi= Rp600.000, Biaya SPP Tetap= Rp4.000.000, Biaya SPP Per SKS (Program Studi PBM)= Rp230.000, Biaya SPP Per SKS(Program Studi Lainnya)= Rp180.000"
-      ]
+      "responses": "Untuk rincian biaya pendidikan di UVERS adalah sebagai berikut:<br /><br />-Biaya Pangkal dan Pembangunan= Rp0<br /><br />-Formulir= Rp100.000<br /><br />-Jas Almamater + Biaya Administrasi= Rp600.000<br /><br />-Biaya SPP Tetap= Rp4.000.000<br /><br />-Biaya SPP Per SKS (Program Studi PBM)= Rp230.000<br /><br />-Biaya SPP Per SKS(Program Studi Lainnya)= Rp180.000"
     },
     {
       "tag": "pembayaran",
       "patterns": [
+        "Proses pembayaran biaya kuliah bagaimana?",
         "Bagaimana cara atau metode pembayaran SPP yang tersedia?",
         "Apakah ada opsi pembayaran cicilan untuk SPP?",
         "Apa konsekuensi jika saya terlambat membayar SPP?",
@@ -94,127 +84,113 @@
         "Apakah ada batas waktu akhir untuk melakukan pembayaran cicilan SPP?",
         "Bagaimana cara pembayaran SPP jika saya berada di luar kota atau luar negeri?",
         "Bagaimana cara memperoleh informasi tagihan SPP yang harus saya bayar?",
-        "Apakah ada opsi pembayaran yang fleksibel atau rencana cicilan untuk biaya masuk universitas?"
+        "Apakah ada opsi pembayaran yang fleksibel atau cicilan untuk biaya masuk universitas?",
+        "Apakah ada batasan waktu untuk melakukan pembayaran biaya pendidikan?",
+        "Apa yang terjadi jika saya terlambat membayar?"
       ],
-      "responses": [
-        "Untuk memudahkan proses pembayaran, SPP dapat dicicil dengan 5 kali pembayaran. Waktu pembayaran SPP paling lambat adalah tanggal 12 setiap bulannya. Jika melewati tenggat waktu pembayaran akan dikenakan denda Rp5.000/hari. Setiap cicilan pembayaran, nominal pembayaran beserta denda (jika ada) akan tertera setelah menginputkan nomor virtual account. Pembayaran cicilan SPP ke-1 adalah syarat mahasiswa diberikan status aktif dan bisa mengikuti perkuliahan. Pembayaran dapat dilakukan melalui bank BCA, melalui 3 cara: Melalui M-Banking (bit.ly/M-Banking_UVERS), Melalui Mesin ATM (bit.ly/ATM_Uvers), Melalui Setoran tunai (bit.ly/SetorTunai_UVERS). Bagi mahasiswa yang tidak memiliki rekening bank BCA dapat dicoba melalui bank masing-masing."
-      ]
+      "responses": "Untuk memudahkan proses pembayaran, SPP bisa dicicil hingga 5 kali. Waktu pembayaran SPP paling lambat adalah tanggal 12 setiap bulannya.<br /><br />Jika melewati tenggat waktu akan dikenakan denda Rp5.000/hari.<br /><br />Nominal pembayaran beserta denda (jika ada) akan tertera setelah menginputkan nomor virtual account.<br /><br />Pembayaran cicilan SPP ke-1 adalah syarat mahasiswa diberikan status aktif dan bisa mengikuti perkuliahan.<br /><br />Pembayaran dapat dilakukan melalui bank BCA, dengan 3 cara:<br /><br />-<a href=\"https://bit.ly/M-Banking_UVERS\">Melalui M-Banking</a><br />-<a href=\"https://bit.ly/ATM_Uvers\">Melalui Mesin ATM</a><br />-<a href=\"https://bit.ly/SetorTunai_UVERS\">Melalui Setoran tunai</a><br /><br />Bagi mahasiswa yang tidak memiliki rekening bank BCA dapat dicoba melalui bank masing-masing."
     },
     {
       "tag": "beasiswa__potongan",
       "patterns": [
-        "Apakah ada program beasiswa atau bantuan keuangan yang tersedia di universitas ini?",
-        "Apa jenis beasiswa yang tersedia untuk mahasiswa yang ingin mendaftar ke universitas ini?",
-        "Bagaimana proses pendaftaran untuk mendapatkan beasiswa di universitas ini?",
-        "Apakah ada persyaratan khusus yang harus dipenuhi untuk memenuhi syarat mendapatkan beasiswa?",
-        "Bagaimana cara mempertahankan beasiswa selama di universitas ini?",
-        "Apakah beasiswa ini hanya tersedia untuk mahasiswa baru atau juga dapat diperoleh oleh mahasiswa yang sudah terdaftar?",
+        "Apakah ada program beasiswa atau bantuan keuangan yang tersedia",
+        "Apa jenis beasiswa yang tersedia bagi mahasiswa yang ingin mendaftar",
+        "Apakah ada persyaratan khusus yang harus dipenuhi untuk mendapatkan beasiswa",
+        "Bagaimana cara mempertahankan beasiswa",
+        "Apakah beasiswa hanya tersedia untuk mahasiswa baru atau juga dapat diperoleh oleh mahasiswa yang sudah terdaftar?",
         "Bagaimana nilai akademis mempengaruhi kemungkinan mendapatkan beasiswa?",
         "Apakah ada batas waktu untuk mengajukan permohonan beasiswa?",
         "Apakah ada kesempatan untuk mendapatkan beasiswa sepanjang tahun atau hanya tersedia di waktu-waktu tertentu?",
-        "Apakah program beasiswa ini hanya diperuntukkan bagi mahasiswa dengan kondisi keuangan yang kurang mampu atau juga tersedia bagi mahasiswa yang berprestasi?",
-        "Apakah ada potongan biaya kuliah untuk mahasiswa yang mampu secara finansial namun memiliki prestasi akademik yang tinggi?",
+        "Apakah program beasiswa hanya diperuntukkan bagi mahasiswa dengan kondisi keuangan yang kurang mampu atau juga tersedia bagi mahasiswa yang berprestasi?",
+        "Apakah ada beasiswa untuk mahasiswa yang mampu secara finansial namun memiliki prestasi akademik yang tinggi?",
         "Apakah terdapat syarat khusus untuk mendapatkan potongan biaya kuliah atau beasiswa untuk mahasiswa yang berprestasi?",
         "Bagaimana cara mengajukan permohonan untuk potongan biaya kuliah atau beasiswa untuk mahasiswa yang berprestasi?"
       ],
-      "responses": [
-        "Tentu saja. Universitas kami memiliki beberapa program beasiswa dan bantuan keuangan untuk mahasiswa yang berprestasi atau membutuhkan bantuan finansial. Kamu bisa mendapatkan informasi lebih lengkap mengenai beasiswa dan potongan pada bit.ly/beasiswaUvers"
-      ]
+      "responses": "Tentu saja, UVERS memiliki beberapa program beasiswa dan bantuan keuangan untuk mahasiswa yang berprestasi atau membutuhkan bantuan finansial.<br /><br />Kamu bisa mendapatkan informasi lebih lengkap pada <a href=\"https://bit.ly/beasiswaUvers\">Beasiswa UVERS</a>"
     },
     {
       "tag": "daftar__online",
       "patterns": [
-        "Apakah saya harus membuat akun terlebih dahulu sebelum mendaftar di universitas ini secara online?",
-        "Apakah ada batas waktu untuk mendaftar di universitas ini secara online?",
-        "Bagaimana cara melengkapi formulir pendaftaran secara online dan apa saja informasi yang perlu diisi?",
-        "Apa saja tahapan seleksi yang harus saya lalui setelah mendaftar secara online di universitas ini?",
-        "Bagaimana saya bisa mengetahui status pendaftaran saya setelah mendaftar secara online di universitas ini?",
-        "Apakah saya bisa mengubah informasi atau dokumen yang sudah saya kirimkan setelah mendaftar secara online di universitas ini?",
-        "Bagaimana prosedur pendaftaran online untuk mahasiswa baru di universitas ini?",
-        "Bagaimana cara mengakses platform pendaftaran online universitas ini?",
-        "Jika ada kendala teknis selama proses pendaftaran online, ke mana saya bisa menghubungi untuk mendapatkan bantuan?",
+        "Apakah saya harus membuat akun terlebih dahulu sebelum mendaftar secara online?",
+        "Apakah ada batas waktu untuk mendaftar secara online?",
+        "Bagaimana cara melengkapi formulir pendaftaran secara online dan apa saja informasi yang perlu diisi",
+        "Apa saja tahapan seleksi yang harus saya lalui setelah mendaftar secara online",
+        "Bagaimana saya bisa mengetahui status pendaftaran saya setelah mendaftar secara online",
+        "Apakah saya bisa mengubah informasi atau dokumen yang sudah saya kirimkan setelah mendaftar secara online",
+        "Bagaimana prosedur pendaftaran online untuk mahasiswa baru",
+        "Bagaimana cara mengakses platform pendaftaran online",
+        "Jika ada kendala, masalah, atau kesulitan selama proses pendaftaran online, ke mana saya bisa menghubungi untuk mendapatkan bantuan?",
         "Apa saja persyaratan yang diperlukan untuk mendaftar secara online?"
       ],
-      "responses": [
-        "Jika kamu sudah mempunyai Username dan Password, kamu bisa mengunungi website bit.ly/joinUvers untuk melanjutkan pendaftaran secara online. Namun, jika kamu belum mendapatkan Username dan Password, kamu dapat menghubungi bit.ly/whatsappOfficialUvers untuk mendapatkan Username dan Password, agar dapat melanjutkan pendaftaran online melalui website joinUVERS. Kamu juga bisa menghubungi nomor tersebut untuk memperoleh bantuan mengenai pendaftaran online"
-      ]
+      "responses": "Jika kamu sudah mempunyai Username dan Password, kamu bisa mengunjungi <a href=\"bit.ly/joinUvers\">Join UVERS</a> untuk melanjutkan pendaftaran secara online.<br /><br />Namun, jika belum mendapatkan Username dan Password, kamu dapat menghubungi <a href=\"https://bit.ly/whatsappOfficialUvers\">WhatsApp Official UVERS</a> untuk mendapatkan Username dan Password, agar dapat melanjutkan pendaftaran online.<br /><br />Kamu juga bisa menghubungi nomor tersebut untuk memperoleh bantuan mengenai pendaftaran online"
     },
     {
       "tag": "fasilitas",
       "patterns": [
-        "Apa saja fasilitas yang ada di universitas universal?",
-        "Apakah perpustakaan tersedia di universitas ini?",
-        "Apa fasilitas olahraga yang tersedia di uvers?",
-        "Apakah ada lab komputer di Universitas Universal?",
-        "Apakah ada klub atau organisasi mahasiswa yang aktif di universitas?",
-        "Apa fasilitas keamanan tersedia di kampus ini?",
-        "Apakah ada tempat parkir yang tersedia untuk mahasiswa uvers?",
-        "Apakah tersedia kantin di uvers?",
+        "Apa saja fasilitas yang ada",
+        "Apakah perpustakaan tersedia",
+        "Apa fasilitas olahraga yang tersedia",
+        "Apakah ada lab komputer",
+        "Apakah ada klub atau organisasi mahasiswa yang aktif",
+        "Apakah fasilitas keamanan tersedia",
+        "Apakah ada tempat parkir yang tersedia untuk mahasiswa",
+        "Apakah tersedia kantin",
         "Apakah ada pusat karir atau layanan penempatan kerja untuk mahasiswa?",
-        "Apakah tersedia fasilitas komputer dan internet atau wifi yang dapat digunakan oleh mahasiswa di kampus universitas?",
-        "Apakah ada tempat untuk istirahat atau relaksasi seperti taman atau ruang santai di kampus universitas?",
-        "Bagaimana dengan fasilitas kesehatan di universitas? Apakah terdapat klinik atau pusat kesehatan?"
+        "Apakah tersedia internet atau wifi yang dapat digunakan oleh mahasiswa",
+        "Apakah ada tempat untuk istirahat atau relaksasi seperti taman atau ruang santai ",
+        "Bagaimana dengan fasilitas kesehatan? Apakah terdapat klinik, pusat kesehatan atau uks?"
       ],
-      "responses": [
-        "UVERS memiliki perpustakaan dengan koleksi buku yang cukup lengkap dan jurnal terbaru. Perpustakaan kami dilengkapi dengan ruang baca dan diskusi yang nyaman. UVERS memiliki beberapa laboratorium komputer yang dilengkapi dengan internet dan tenaga ahli yang kompeten di bidangnya. UVERS memiliki lapangan olahraga seperti, lapangan basket, lapangan badminton, dan tenis meja. Mahasiswa dapat menggunakan fasilitas ini secara gratis dan kami juga menyediakan berbagai kegiatan olahraga yang bisa diikuti. UVERS memiliki lapangan parkir yang luas bagi kendaraan roda empat atau roda dua. UVERS memiliki area kantin yang bersih dan nyaman untuk memfasilitasi kegiatan belajar dan mengajar. Kantin kami menyediakan makanan dan minuman vegetarian yang berkualitas, sehat, dan beragam.Kampus kami memiliki sebuah pusat karir atau layanan penempatan kerja bagi mahasiswa yang bernama UCC atau Uvers Career Center. UCC adalah sebuah pusat sumber daya yang dirancang untuk membantu mahasiswa kami dalam mencapai tujuan karir mereka dan meningkatkan keterampilan profesional mereka."
-      ]
+      "responses": "-UVERS memiliki perpustakaan dengan koleksi buku dan jurnal yang cukup lengkap terbaru.<br /><br />-UVERS memiliki beberapa laboratorium komputer yang dilengkapi dengan internet<br /><br />-UVERS memiliki lapangan olahraga seperti, lapangan basket, badminton, dan tenis meja<br /><br />-UVERS memiliki lapangan parkir yang luas bagi kendaraan roda empat atau dua<br /><br />-UVERS memiliki kantin vegetarian yang bersih dan nyaman<br /><br />-UVERS memiliki pusat karir bernama UVERS Career Center (UCC). UCC dirancang untuk membantu kamu dalam mencapai tujuan karir dan meningkatkan keterampilan profesional."
     },
     {
       "tag": "program__studi",
       "patterns": [
-        "Apa saja jurusan yang tersedia di UVERS?",
-        "Apa saja yang program studi ditawarkan di universitas ini?",
-        "Apakah UVERS memiliki program studi yang terkait dengan bidang bisnis atau teknologi?",
-        "Apakah Universitas Universal memiliki jurusan yang terkait dengan bidang seni atau desain?",
-        "Apakah ada persyaratan khusus untuk mendaftar di program studi tertentu?",
+        "Apa saja jurusan yang tersedia",
+        "Apa saja yang program studi ditawarkan",
+        "Apakah memiliki program studi yang terkait dengan bidang bisnis atau teknologi?",
+        "Apakah memiliki jurusan terkait dengan bidang seni atau desain?",
         "Apakah ada program studi yang terkait dengan lingkungan atau keberlanjutan?",
+        "Apakah ada persyaratan khusus untuk mendaftar di program studi tertentu?",
         "Bagaimana saya dapat memperoleh informasi mengenai kurikulum dan metode pembelajaran di program studi tertentu?",
-        "Apa saja opsi karir yang tersedia setelah lulus dari program studi tertentu di UVERS?",
+        "Apa saja opsi karir yang tersedia setelah lulus dari program studi tertentu",
         "Apa saja program studi unggulan yang tersedia di universitas ini?",
         "Bagaimana universitas ini mendefinisikan program studi unggulan?",
-        "Apa saja program studi yang menjadi unggulan di uvers ini?"
+        "Apa saja program studi yang menjadi unggulan"
       ],
-      "responses": [
-        "Ada banyak program studi yang ditawarkan di UVERS, mulai dari teknik, bisnis, hingga seni. Kamu bisa mengeceknya pada bit.ly/programStudiUvers untuk mendapatkan informasi lebih lengkap mengenai program studi. Kamu juga bisa datang langsung ke bagian penerimaan mahasiswa baru untuk bertanya mengenai program studi"
-      ]
+      "responses": "Ada banyak program studi yang ditawarkan di UVERS, mulai dari teknik, bisnis, hingga seni. Kamu bisa mengeceknya pada <a href=\"https://bit.ly/programStudiUvers\">Program Studi UVERS</a> untuk mendapatkan informasi lebih lengkap mengenai program studi.<br /><br />Kamu juga bisa datang langsung ke bagian penerimaan mahasiswa baru untuk bertanya mengenai program studi"
     },
     {
       "tag": "akreditasi",
       "patterns": [
-        "Apakah UVERS sudah terakreditasi?",
-        "Universitas Universal sudah diakreditasi?, jika sudah siapa yang mengakreditasi?",
-        "Oleh siapa universitas ini diakreditasi?",
-        "Bagaimana cara melihat akreditasi universitas ini?",
-        "Apa perbedaan antara universitas yang terakreditasi dengan yang tidak terakreditasi?",
-        "Apakah ada program studi atau fakultas di universitas ini yang tidak terakreditasi? Jika ya, mengapa?",
-        "Apa saja program studi yang sudah terakreditasi di universitas ini dan apakah terdapat program studi yang sedang dalam proses akreditasi?",
+        "Apakah UVERS sudah terakreditasi",
+        "Universitas Universal sudah diakreditasi?, jika sudah siapa yang mengakreditasinya",
+        "Oleh siapa universitas ini diakreditasi",
+        "Bagaimana cara melihat akreditasi universitas ini",
+        "Apa perbedaan antara universitas yang terakreditasi dengan yang tidak terakreditasi",
+        "Apakah ada program studi atau fakultas yang tidak terakreditasi",
+        "Apa saja program studi yang sudah terakreditasi",
         "Bagaimana akreditasi universitas ini dan siapa yang melakukan akreditasi?",
         "Berapa lama masa berlaku akreditasi universitas ini? Apakah ada periode tertentu di mana universitas perlu mengikuti proses akreditasi ulang?",
-        "Bagaimana dengan akreditasi program studi di universitas ini? Apakah setiap program studi memiliki akreditasi tersendiri?",
-        "Bagaimana cara calon mahasiswa memastikan bahwa program studi yang mereka minati memiliki akreditasi yang baik?",
+        "Apakah setiap program studi memiliki akreditasi tersendiri?",
+        "Bagaimana cara calon mahasiswa memastikan program studi yang mereka minati memiliki akreditasi yang baik?",
         "Bagaimana proses akreditasi program studi dilakukan? Siapa yang bertanggung jawab dalam proses ini?"
       ],
-      "responses": [
-        "Maaf, saat ini perguruan tinggi kami belum terakreditasi oleh Badan Akreditasi Nasional Perguruan Tinggi atau BAN-PT. Namun, perguruan tinggi kami terus berusaha untuk meningkatkan kualitas pendidikan dan memenuhi persyaratan untuk mendapatkan akreditasi di masa yang akan datang. Meskipun perguruan tinggi belum terakreditasi, kami tetap memberikan pendidikan yang berkualitas dan berupaya untuk memberikan pengalaman belajar yang terbaik bagi mahasiswa. Namun, saya ingin menambahkan bahwa meskipun perguruan tinggi belum terakreditasi, program studi yang ditawarkan telah terakreditasi. Anda dapat melihat informasi tentang akreditasi program studi tersebut melalui tautan yang telah disediakan, yaitu bit.ly/akreditasiProgramStudiUvers."
-      ]
+      "responses": "Maaf, saat ini UVERS belum terakreditasi oleh Badan Akreditasi Nasional Perguruan Tinggi (BAN-PT).<br /><br />Namun, UVERS terus berusaha untuk meningkatkan kualitas pendidikan dan memenuhi persyaratan untuk mendapatkan akreditasi di masa yang akan datang.<br /><br />Meskipun UVERS belum terakreditasi, kami tetap memberikan pendidikan yang berkualitas dan berupaya untuk memberikan pengalaman belajar yang terbaik bagi mahasiswa.<br /><br />Meskipun UVERS belum terakreditasi, program studi yang ditawarkan telah terakreditasi. Kamu bisa melihat informasi tentang <a href=\"https://bit.ly/akreditasiProgramStudiUvers\">Akreditasi Program Studi UVERS</a> untuk memperoleh informasi yang lebih lengkap."
     },
     {
       "tag": "prestasi",
       "patterns": [
-        "Apa saja prestasi yang telah diraih oleh universitas ini?",
-        "Apakah ada kompetisi yang telah meraih penghargaan bagi universitas ini?",
-        "Bisakah Anda menyebutkan beberapa prestasi yang pernah diterima oleh uvers?",
-        "Berapa banyak mahasiswa dari universitas ini yang telah mendapatkan penghargaan?",
-        "Apakah ada fakultas di universitas ini yang telah meraih prestasi khusus?",
-        "Bisakah Anda menyebutkan beberapa penghargaan mahasiswa yang dihasilkan oleh universitas universal?",
-        "Apakah ada program atau kegiatan khusus di uvers yang telah memperoleh pengakuan atas prestasinya?",
-        "Apakah universitas ini memiliki penghargaan khusus yang diakui baik secara nasional maupun internasional?",
-        "Apakah ada alumni yang telah meraih prestasi di tingkat nasional atau internasional setelah lulus dari universitas ini?",
-        "Dapatkah Anda memberikan contoh prestasi yang dihasilkan oleh para mahasiswa universitas ini dalam bidang akademik, riset, olahraga, seni, atau kegiatan lainnya?"
+        "Apa saja prestasi yang telah diraih",
+        "Apakah ada kompetisi yang telah meraih penghargaan",
+        "Bisakah Anda menyebutkan beberapa prestasi yang pernah diterima",
+        "Berapa banyak mahasiswa yang telah mendapatkan penghargaan?",
+        "Apakah ada fakultas yang telah meraih prestasi khusus?",
+        "Apakah ada program atau kegiatan khusus yang telah memperoleh pengakuan atas prestasinya?",
+        "Apakah memiliki penghargaan khusus yang diakui baik secara nasional maupun internasional?",
+        "Apakah ada alumni yang telah meraih prestasi di tingkat nasional atau internasional setelah lulus",
+        "Dapatkah Anda memberikan contoh prestasi yang dihasilkan oleh para mahasiswa dalam bidang akademik, riset, olahraga, seni, atau kegiatan lainnya?"
       ],
-      "responses": [
-        "Universitas Universal telah mendapatkan penghargaan lokal maupun internasional 2 tahun sejak berdirinya yaitu pada tahun 2017. Prestasi ini merupakan hasil kerja keras dan kebanggaan bagi Universitas Universal. Untuk melihat daftar prestasi lengkap, Anda dapat mengunjungi link berikut bit.ly/prestasiUvers."
-      ]
+      "responses": "Universitas Universal sudah banyak mendapatkan penghargaan lokal maupun internasional. Prestasi ini merupakan hasil kerja keras dan kebanggaan bagi Universitas Universal.<br /><br />Untuk melihat daftar prestasi yang lebih lengkap, Kamu bisa mengunjungi<br /><a href=\"https://bit.ly/prestasiUvers\">Prestasi UVERS</a>."
     },
     {
       "tag": "kerjasama",
@@ -231,35 +207,31 @@
         "Apakah universitas ini memiliki kemitraan dengan universitas-universitas di dalam negeri untuk kegiatan pertukaran pengajar?",
         "Apakah universitas ini memiliki program kerja sama dengan universitas lain untuk mengadakan seminar, konferensi, atau acara akademik lainnya? "
       ],
-      "responses": [
-        "Universitas Universal telah menjalin kerja sama dengan berbagai organisasi untuk pengembangan kompetensi mahasiswa. Kerja sama ini didasarkan pada misi universitas untuk Menjalin kerjasama dengan pelbagai institusi, baik di dalam maupun di luar negeri. Beberapa contoh kerja sama yang telah terjalin antara Universitas Universal dengan perusahaan dan organisasi eksternal meliputi: Glints, Oracle Academy, PT Bursa Efek Indonesia, J&T Express, PT. Kresna Graha Sekurindo TBK, PT. MNC Sekuritas, dan lain-lain. Daftar kerja sama Universitas Universal dengan perusahaan dan organisasi lainnya tidak terbatas pada contoh di atas. Untuk melihat lebih banyak kerja sama yang telah terjalin, Anda dapat mengunjungi bit.ly/kerjasamaUvers untuk informasi lebih lanjut. Menjalin kemitraan dengan organisasi eksternal, bertujuan untuk meningkatkan keterampilan praktis, pengetahuan, dan jaringan mahasiswa, sehingga mereka siap menghadapi tantangan dunia kerja."
-      ]
+      "responses": "Universitas Universal telah menjalin kerja sama dengan berbagai organisasi untuk pengembangan kompetensi mahasiswa.<br /><br />Kerja sama ini didasarkan pada misi UVERS untuk menjalin kerjasama dengan pelbagai institusi, baik di dalam maupun di luar negeri.<br /><br />Beberapa contoh kerja sama yang telah terjalin antara Universitas Universal dengan perusahaan dan organisasi eksternal meliputi:<br /><br />-Glints<br />-Oracle Academy<br />-PT Bursa Efek Indonesia<br />-J&T Express<br />-PT. Kresna Graha Sekurindo TBK<br />-PT. MNC Sekuritas<br />-dan lain-lain.<br /><br />Daftar kerja sama Universitas Universal dengan perusahaan dan organisasi lainnya tidak terbatas pada contoh di atas.<br /><br />Untuk melihat lebih banyak kerja sama yang telah terjalin, Kamu bisa mengunjungi <a href=\"https://bit.ly/kerjasamaUvers\">Kerja Sama UVERS</a> untuk informasi lebih lanjut.<br /><br />Menjalin kemitraan dengan organisasi eksternal, bertujuan untuk meningkatkan keterampilan praktis, pengetahuan, dan jaringan mahasiswa, sehingga mereka siap menghadapi tantangan dunia kerja."
     },
     {
       "tag": "kos",
       "patterns": [
-        "Apakah ada kos yang dekat dengan UVERS?",
-        "Apakah Universitas Universal memiliki nama kos-kosan yang dekat dengan kampus?",
-        "Apakah universitas ini memiliki layanan bantuan dalam mencari kos-kosan yang sesuai dengan kebutuhan calon mahasiswa?",
-        "Bagaimana cara mencari kos-kosan yang dekat dengan universitas? Apakah ada sumber atau media yang disarankan?",
+        "Apakah ada kosan yang dekat dengan UVERS?",
+        "Apakah memiliki nama kos-kosan yang dekat dengan kampus?",
+        "Apakah memiliki layanan bantuan dalam mencari kos yang sesuai dengan kebutuhan calon mahasiswa?",
+        "Bagaimana cara mencari kosan yang dekat",
         "Apakah kos-kosan dekat universitas terdapat fasilitas yang memadai seperti internet, tempat parkir, atau akses transportasi umum?",
-        "Apakah kos-kosan dekat universitas tersedia dalam berbagai tipe kamar atau hanya satu tipe kamar saja?",
-        "Berapa banyak kos-kosan yang dekat dengan universitas universal?",
+        "Apakah kos dekat universitas tersedia dalam berbagai tipe kamar atau hanya satu tipe kamar saja?",
+        "Berapa banyak kosan yang dekat dengan universitas universal?",
         "Bisakah Anda merekomendasikan kos-kosan yang dekat dengan UVERS?",
         "Apakah universitas menyediakan informasi atau rekomendasi tempat kos dekat kampus?",
-        "Apakah ada kawasan atau daerah khusus yang disarankan untuk mencari kos dekat universitas?",
+        "Apakah ada kawasan atau daerah khusus yang disarankan untuk mencari kosan dekat universitas?",
         "Bagaimana saya bisa mendapatkan daftar kos-kosan yang terletak dekat dengan universitas?",
-        "Apakah universitas memiliki informasi tentang fasilitas dan pelayanan yang disediakan oleh pemilik kos?"
+        "Apakah memiliki informasi tentang fasilitas dan pelayanan yang disediakan oleh pemilik kos?"
       ],
-      "responses": [
-        "Di sekitar UVERS terdapat banyak pilihan kos-kosan yang dapat dipilih. Namun, untuk menemukan kos yang tepat sesuai dengan keinginan dan kebutuhan kamu, mungkin kamu bisa mencari informasi mengenai kos-kosan dari media online seperti aplikasi pencari kos-kosan (mamikos.com) atau grup Facebook khusus kos-kosan di daerah Batam. Biasanya, informasi tersebut cukup akurat dan dapat membantu kamu dalam mencari kos-kosan yang diinginkan. Namun saya akan coba bantu kamu, silahkan kamu kunjungi bit.ly/kosSekitarUvers untuk melihat lokasi kos-kosan yang berada disekitar UVERS. Semoga membantu kamu dalam mencari kos-kosan disekitar UVERS"
-      ]
+      "responses": "Di sekitar UVERS terdapat banyak pilihan kos-kosan yang dapat dipilih.<br />Namun, untuk menemukan kos yang tepat sesuai dengan keinginan dan kebutuhan kamu, mungkin kamu bisa mencari informasi mengenai kos-kosan dari media online seperti:<br /><br />-Aplikasi pencari kos-kosan (mamikos.com)<br /><br />Grup Facebook khusus kos-kosan di daerah Batam.<br /><br />Biasanya, informasi tersebut cukup akurat dan dapat membantu kamu dalam mencari kos-kosan yang diinginkan.<br /><br />Namun saya akan coba bantu kamu, silahkan kamu kunjungi <a href=\"https://bit.ly/kosSekitarUvers\">Kos Sekitar UVERS</a> untuk melihat lokasi kos-kosan yang berada disekitar UVERS/<br /><br />Semoga membantu kamu dalam mencari kos-kosan disekitar UVERS"
     },
     {
       "tag": "nomor__telepon",
       "patterns": [
-        "Bagaimana cara saya mendapatkan nomor administrasi universitas?",
-        "Apakah Anda bisa memberikan nomor administrasi atau UCC (Pusat Karir Universitas)",
+        "Bagaimana cara saya terhubung dengan UVERS",
+        "Apakah Anda bisa memberikan nomor UCC (Pusat Karir Universitas)",
         "Apakah Anda dapat memberikan nomor telepon atau kontak vihara?",
         "Apakah Anda bisa memberikan informasi kontak atau nomor telepon humas atau admin universitas?",
         "Bagaimana saya bisa mendapatkan nomor telepon atau kontak pusat bahasa universitas?",
@@ -271,9 +243,7 @@
         "Ada nomor buat tanya admin kemahasiswaan?",
         "Mau minta nomor telepon administrasi di kampus"
       ],
-      "responses": [
-        "Tentu! Berikut nomor kontak yang bisa kamu hubungi: Admin Universitas: 085272161218 / 0778 - 473399/466869. Pusat Karir Uvers (UCC): 08524819885. Pusat Bahasa Universitas: 08998825888 / 082236011818. Vihara Universitas: (0778) 462901."
-      ]
+      "responses": "Tentu! Berikut nomor kontak yang bisa kamu hubungi:<br /><br />-Admin Universitas: 085272161218 / 0778 - 473399/466869.<br /><br />-Pusat Karir Uvers (UCC): 08524819885.<br /><br />-Pusat Bahasa Universitas: 08998825888 / 082236011818.<br /><br />-Vihara: (0778) 462901."
     }
   ]
 }
