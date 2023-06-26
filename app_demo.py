@@ -48,6 +48,11 @@ def get_response(msg):
     stop_words.update(json_set)
     sentence = [word for word in sentence if not word in stop_words]
     sentence = [stemming_token(w) for w in sentence]
+    
+    if "kos-kosan" in sentence:
+        index = sentence.index("kos-kosan")
+        sentence[index] = "kos"
+        
     print(sentence)
 
     X = vectorization(sentence, all_token)

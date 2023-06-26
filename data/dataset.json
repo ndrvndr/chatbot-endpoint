@@ -5,10 +5,11 @@
       "patterns": [
         "Halo",
         "Hallo",
-        "Hello",
+        "Hello ",
         "Hi",
         "Hai",
         "Hei",
+        "Hey",
         "Selamat Pagi",
         "Selamat Siang",
         "Selamat Sore",
@@ -16,12 +17,24 @@
         "Test",
         "Tes",
         "Saya butuh bantuan",
-        "Apakah kamu di sini",
-        "Apakah kamu bisa membantu saya",
-        "Apakah kamu punya informasi tentang",
-        "Boleh saya bertanya tentang sesuatu"
+        "Min",
+        "Mimin",
+        "Admin"
       ],
       "responses": "Halo! Selamat datang<br /><br />Ada yang bisa saya bantu, nih? Saya siap menjawab pertanyaanmu atau membantu kamu menemukan informasi yang kamu butuhkan.<br /><br />Ayo, kita mulai ngobrol"
+    },
+    {
+      "tag": "informasi",
+      "patterns": [
+        "Kapan penerimaan mahasiswa baru untuk tahun ini",
+        "Kapan tanggal mulai dan berakhir pendaftaran mahasiswa baru",
+        "Apakah ada informasi terbaru tentang penerimaan mahasiswa baru",
+        "Dapatkah Anda memberikan jadwal pendaftaran mahasiswa baru",
+        "Apakah ada batas waktu untuk mendaftar sebagai mahasiswa baru?",
+        "Di mana saya dapat menemukan informasi lengkap tentang penerimaan mahasiswa baru",
+        "Apakah mempunyai brosur"
+      ],
+      "responses": "Jangan Lupa Untuk Follow Instagram Kami dan Tetap Up-to-Date dengan Informasi Terbaru Universitas Universal<br /><br /><table><thead><tr><th><b>Gelombang Prioritas</b><br />Juli 2022 s.d. September 2022</th></tr></thead><tbody><tr><td>Lulus Tes</td><td>Beasiswa Penuh 8 Semester</td></tr><tr><td>Tidak Lulus Tes</td><td>75% Potongan SPP Tetap 2 Semester Pertama</td></tr></tbody></table><br /><br /><table><thead><tr><th><b>Gelombang 1</b><br />Oktober 2022 s.d. Februari 2023</th></tr></thead><tbody><tr><td>Reguler</td><td>50% Potongan SPP Tetap 2 Semester Pertama</td></tr><tr><td>Beasiswa UVERS 1 <br />Juara kelas/lomba tingkat Kota/Kabupaten</td><td>50% Potongan SPP Tetap 2 Semester Pertama</td></tr><tr><td>Beasiswa UVERS 2 <br />Juara lomba tingkat Provinsi</td><td>75% Potongan SPP Tetap 2 Semester Pertama</td></tr><tr><td>Beasiswa UVERS 3 <br />Juara lomba tingkat Nasional/Internasional</td><td>100% Potongan SPP Tetap 2 Semester Pertama</td></tr></tbody></table><br /><br /><table><thead><tr><th><b>Gelombang 2</b><br />Maret 2023 s.d. Mei 2023</th></tr></thead><tbody><tr><td>Reguler</td><td>25% Potongan SPP Tetap 2 Semester Pertama</td></tr><tr><td>Beasiswa UVERS 1 <br />Juara kelas/lomba tingkat Kota/Kabupaten</td><td>25% Potongan SPP Tetap 2 Semester Pertama</td></tr><tr><td>Beasiswa UVERS 2 <br />Juara lomba tingkat Provinsi</td><td>50% Potongan SPP Tetap 2 Semester Pertama</td></tr><tr><td>Beasiswa UVERS 3 <br />Juara lomba tingkat Nasional/Internasional</td><td>75% Potongan SPP Tetap 2 Semester Pertama</td></tr><tr><td>Jalur Linearitas Program Studi</td><td>50% Potongan SPP Tetap 2 Semester Pertama</td></tr></tbody></table><br /><br /><table><thead><tr><th><b>Gelombang 3</b><br />Juni 2023 s.d. Agustus 2023</th></tr></thead><tbody><tr><td>Reguler</td><td>Tanpa Potongan</td></tr><tr><td>Jalur Linearitas Program Studi</td><td>25% Potongan SPP Tetap 2 Semester Pertama</td></tr></tbody></table>"
     },
     {
       "tag": "prosedur__pendaftaran",
@@ -166,17 +179,17 @@
     {
       "tag": "akreditasi",
       "patterns": [
-        "Apakah UVERS sudah terakreditasi",
+        "Bagaimana akreditasnya UVERS?",
         "Universitas Universal sudah diakreditasi?, jika sudah siapa yang mengakreditasinya",
         "Oleh siapa universitas ini diakreditasi",
-        "Bagaimana cara melihat akreditasi universitas ini",
+        "Bagaimana cara melihat akreditas universitas ini",
         "Apa perbedaan antara universitas yang terakreditasi dengan yang tidak terakreditasi",
         "Apakah ada program studi atau fakultas yang tidak terakreditasi",
         "Apa saja program studi yang sudah terakreditasi",
-        "Bagaimana akreditasi universitas ini dan siapa yang melakukan akreditasi?",
+        "Bagaimana akreditasnya universitas ini dan siapa yang melakukan akreditasi?",
         "Berapa lama masa berlaku akreditasi universitas ini? Apakah ada periode tertentu di mana universitas perlu mengikuti proses akreditasi ulang?",
-        "Apakah setiap program studi memiliki akreditasi tersendiri?",
-        "Bagaimana cara calon mahasiswa memastikan program studi yang mereka minati memiliki akreditasi yang baik?",
+        "Apakah setiap program studi memiliki akreditasnya tersendiri?",
+        "Bagaimana cara calon mahasiswa memastikan program studi yang mereka minati memiliki akreditas yang baik?",
         "Bagaimana proses akreditasi program studi dilakukan? Siapa yang bertanggung jawab dalam proses ini?"
       ],
       "responses": "Maaf, saat ini UVERS belum terakreditasi oleh Badan Akreditasi Nasional Perguruan Tinggi (BAN-PT).<br /><br />Namun, UVERS terus berusaha untuk meningkatkan kualitas pendidikan dan memenuhi persyaratan untuk mendapatkan akreditasi di masa yang akan datang.<br /><br />Meskipun UVERS belum terakreditasi, kami tetap memberikan pendidikan yang berkualitas dan berupaya untuk memberikan pengalaman belajar yang terbaik bagi mahasiswa.<br /><br />Meskipun UVERS belum terakreditasi, program studi yang ditawarkan telah terakreditasi. Kamu bisa melihat informasi tentang <a href=\"https://bit.ly/akreditasiProgramStudiUvers\">Akreditasi Program Studi UVERS</a> untuk memperoleh informasi yang lebih lengkap."
@@ -200,10 +213,10 @@
       "tag": "kerjasama",
       "patterns": [
         "Apakah Uvers memiliki kerja sama kampus lainnya?",
-        "Apa manfaat kerja sama universitas universal bagi mahasiswa?",
+        "Apa manfaat kerjasama universitas universal bagi mahasiswa?",
         "Apa saja contoh kerja sama Universitas Universal dengan perusahaan eksternal?",
         "Apakah Universitas Universal memiliki koneksi internasional dengan perguruan tinggi lain di luar negeri?",
-        "Apakah Uvers memiliki kerja sama dengan lembaga penelitian atau industri terkemuka?",
+        "Apakah Uvers memiliki kerjasama dengan lembaga penelitian atau industri terkemuka?",
         "Apakah ada kerjasama internasional yang memungkinkan mahasiswa untuk berpartisipasi dalam program pertukaran pelajar atau belajar di luar negeri?",
         "Apakah ada kesempatan bagi mahasiswa untuk terlibat dalam penelitian atau proyek dengan fakultas atau perguruan tinggi lain?",
         "Apakah ada program magang atau kerja sama dengan startup atau perusahaan rintisan di Uvers?",
@@ -211,23 +224,23 @@
         "Apakah universitas ini memiliki kemitraan dengan universitas-universitas di dalam negeri untuk kegiatan pertukaran pengajar?",
         "Apakah universitas ini memiliki program kerja sama dengan universitas lain untuk mengadakan seminar, konferensi, atau acara akademik lainnya? "
       ],
-      "responses": "Universitas Universal telah menjalin kerja sama dengan berbagai organisasi untuk pengembangan kompetensi mahasiswa.<br /><br />Kerja sama ini didasarkan pada misi UVERS untuk menjalin kerjasama dengan pelbagai institusi, baik di dalam maupun di luar negeri.<br /><br />Beberapa contoh kerja sama yang telah terjalin antara Universitas Universal dengan perusahaan dan organisasi eksternal meliputi:<br /><br />-Glints<br />-Oracle Academy<br />-PT Bursa Efek Indonesia<br />-J&T Express<br />-PT. Kresna Graha Sekurindo TBK<br />-PT. MNC Sekuritas<br />-dan lain-lain.<br /><br />Daftar kerja sama Universitas Universal dengan perusahaan dan organisasi lainnya tidak terbatas pada contoh di atas.<br /><br />Untuk melihat lebih banyak kerja sama yang telah terjalin, Kamu bisa mengunjungi <a href=\"https://bit.ly/kerjasamaUvers\">Kerja Sama UVERS</a> untuk informasi lebih lanjut.<br /><br />Menjalin kemitraan dengan organisasi eksternal, bertujuan untuk meningkatkan keterampilan praktis, pengetahuan, dan jaringan mahasiswa, sehingga mereka siap menghadapi tantangan dunia kerja."
+      "responses": "Universitas Universal telah menjalin kerja sama dengan berbagai organisasi untuk pengembangan kompetensi mahasiswa.<br /><br />Kerja sama ini didasarkan pada misi UVERS untuk menjalin kerja sama dengan pelbagai institusi, baik di dalam maupun di luar negeri.<br /><br />Beberapa contoh kerja sama yang telah terjalin antara Universitas Universal dengan perusahaan dan organisasi eksternal meliputi:<br /><br />-Glints<br />-Oracle Academy<br />-PT Bursa Efek Indonesia<br />-J&T Express<br />-PT. Kresna Graha Sekurindo TBK<br />-PT. MNC Sekuritas<br />-dan lain-lain.<br /><br />Daftar kerja sama Universitas Universal dengan perusahaan dan organisasi lainnya tidak terbatas pada contoh di atas.<br /><br />Untuk melihat lebih banyak kerja sama yang telah terjalin, Kamu bisa mengunjungi <a href=\"https://bit.ly/kerjasamaUvers\">Kerja Sama UVERS</a> untuk informasi lebih lanjut.<br /><br />Menjalin kemitraan dengan organisasi eksternal, bertujuan untuk meningkatkan keterampilan praktis, pengetahuan, dan jaringan mahasiswa, sehingga mereka siap menghadapi tantangan dunia kerja."
     },
     {
       "tag": "kos",
       "patterns": [
-        "Apakah ada kosan yang dekat dengan UVERS?",
-        "Apakah memiliki nama kos-kosan yang dekat dengan kampus?",
+        "Apakah ada kos yang dekat dengan UVERS?",
+        "Apakah memiliki nama kosan yang dekat dengan kampus?",
         "Apakah memiliki layanan bantuan dalam mencari kos yang sesuai dengan kebutuhan calon mahasiswa?",
         "Bagaimana cara mencari kosan yang dekat",
-        "Apakah kos-kosan dekat universitas terdapat fasilitas yang memadai seperti internet, tempat parkir, atau akses transportasi umum?",
-        "Apakah kos dekat universitas tersedia dalam berbagai tipe kamar atau hanya satu tipe kamar saja?",
-        "Berapa banyak kosan yang dekat dengan universitas universal?",
-        "Bisakah Anda merekomendasikan kos-kosan yang dekat dengan UVERS?",
+        "Apakah kos dekat universitas terdapat fasilitas yang memadai seperti internet, tempat parkir, atau akses transportasi umum?",
+        "Apakah kosan dekat universitas tersedia dalam berbagai tipe kamar atau hanya satu tipe kamar saja?",
+        "Berapa banyak kos yang dekat dengan universitas universal?",
+        "Bisakah Anda merekomendasikan kosan yang dekat dengan UVERS?",
         "Apakah universitas menyediakan informasi atau rekomendasi tempat kos dekat kampus?",
         "Apakah ada kawasan atau daerah khusus yang disarankan untuk mencari kosan dekat universitas?",
-        "Bagaimana saya bisa mendapatkan daftar kos-kosan yang terletak dekat dengan universitas?",
-        "Apakah memiliki informasi tentang fasilitas dan pelayanan yang disediakan oleh pemilik kos?"
+        "Bagaimana saya bisa mendapatkan daftar kos yang terletak dekat dengan universitas?",
+        "Apakah memiliki informasi tentang fasilitas dan pelayanan yang disediakan oleh pemilik kosan?"
       ],
       "responses": "Di sekitar UVERS terdapat banyak pilihan kos-kosan yang dapat dipilih.<br />Namun, untuk menemukan kos yang tepat sesuai dengan keinginan dan kebutuhan kamu, mungkin kamu bisa mencari informasi mengenai kos-kosan dari media online seperti:<br /><br />-Aplikasi pencari kos-kosan (mamikos.com)<br /><br />-Grup Facebook khusus kos-kosan di daerah Batam.<br /><br />Biasanya, informasi tersebut cukup akurat dan dapat membantu kamu dalam mencari kos-kosan yang diinginkan.<br /><br />Namun saya akan coba bantu kamu, silahkan kamu kunjungi <a href=\"https://bit.ly/kosSekitarUvers\">Kos Sekitar UVERS</a> untuk melihat lokasi kos-kosan yang berada disekitar UVERS/<br /><br />Semoga membantu kamu dalam mencari kos-kosan disekitar UVERS"
     },
@@ -245,7 +258,10 @@
         "Ada kontak humas atau admin universitas yang bisa dihubungi?",
         "Aku pengen tahu nomor telepon vihara di kampus.",
         "Ada nomor buat tanya admin kemahasiswaan?",
-        "Mau minta nomor telepon administrasi di kampus"
+        "Mau minta nomor telepon administrasi di kampus",
+        "Ada cara buat langsung ngobrol sama adminnya",
+        "Apakah ada opsi buat lanjut diskusi sama admin",
+        "Saya butuh bantuan langsung dari admin"
       ],
       "responses": "Tentu! Berikut nomor kontak yang bisa kamu hubungi:<br /><br />-Admisi: 085272161218 atau 0778 - 473399/466869.<br /><br />-Pusat Karir Uvers (UCC): 08994819885.<br /><br />-Pusat Bahasa Universitas: 08998825888 atau 082236011818.<br /><br />-Kemahasiswaan: 08994819885.<br /><br />-Vihara: (0778) 462901."
     }
