@@ -69,7 +69,7 @@ def get_response(msg):
     print(tag)
     print(prob)
 
-    if prob.item() > 0.7:
+    if prob.item() > 0.87:
         for intent in dataset["intents"]:
             if tag == intent["tag"]:
                 return intent["responses"]
