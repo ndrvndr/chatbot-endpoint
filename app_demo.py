@@ -49,9 +49,10 @@ def get_response(msg):
     sentence = [word for word in sentence if not word in stop_words]
     sentence = [stemming_token(w) for w in sentence]
     
-    if "kos-kosan" in sentence:
-        index = sentence.index("kos-kosan")
-        sentence[index] = "kos"
+    sentence = " ".join(sentence)
+    sentence = sentence.replace("kos-kosan", "kos").replace("kost-kostan", "kos").replace("kost", "kos").replace("kost", "kos").replace("asrama", "kos")
+    sentence = sentence.split()
+
         
     print(sentence)
 
