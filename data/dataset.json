@@ -56,6 +56,8 @@
       "tag": "persyaratan__masuk",
       "patterns": [
         "Apa saja persyaratan untuk mendaftar",
+        "Berkas yang dibutuhkan apa saja?",
+        "Apakah ada persyaratan",
         "Apa saja dokumen yang diperlukan sebagai syarat untuk mendaftar",
         "Apa saja yang harus saya lengkapi untuk mendaftar",
         "berkas yang harus saya siapkan untuk masuk",
@@ -183,14 +185,14 @@
         "Bagaimana akreditasnya UVERS?",
         "Universitas Universal sudah diakreditasi?, jika sudah siapa yang mengakreditasinya",
         "Oleh siapa universitas ini diakreditasi",
-        "Bagaimana cara melihat akreditas universitas ini",
+        "Bagaimana cara melihat status akreditas universitas ini",
         "Apa perbedaan antara universitas yang terakreditasi dengan yang tidak terakreditasi",
         "Apakah ada program studi atau fakultas yang tidak terakreditasi",
         "Apa saja program studi yang sudah terakreditasi",
         "Bagaimana akreditasnya universitas ini dan siapa yang melakukan akreditasi?",
         "Berapa lama masa berlaku akreditasi universitas ini? Apakah ada periode tertentu di mana universitas perlu mengikuti proses akreditasi ulang?",
         "Apakah setiap program studi memiliki akreditasnya tersendiri?",
-        "Bagaimana cara calon mahasiswa memastikan program studi yang mereka minati memiliki akreditas yang baik?",
+        "Bagaimana cara calon mahasiswa memastikan program studi yang mereka minati memiliki status akreditas yang baik?",
         "Bagaimana proses akreditasi program studi dilakukan? Siapa yang bertanggung jawab dalam proses ini?"
       ],
       "responses": "Maaf, saat ini UVERS belum terakreditasi oleh Badan Akreditasi Nasional Perguruan Tinggi (BAN-PT).<br /><br />Namun, UVERS terus berusaha untuk meningkatkan kualitas pendidikan dan memenuhi persyaratan untuk mendapatkan akreditasi di masa yang akan datang.<br /><br />Meskipun UVERS belum terakreditasi, kami tetap memberikan pendidikan yang berkualitas dan berupaya untuk memberikan pengalaman belajar yang terbaik bagi mahasiswa.<br /><br />Meskipun UVERS belum terakreditasi, program studi yang ditawarkan telah terakreditasi. Kamu bisa melihat informasi tentang <a href=\"https://bit.ly/akreditasiProgramStudiUvers\">Akreditasi Program Studi UVERS</a> untuk memperoleh informasi yang lebih lengkap."
