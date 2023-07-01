@@ -27,11 +27,11 @@
       "tag": "informasi",
       "patterns": [
         "Kapan penerimaan mahasiswa baru untuk tahun ini",
-        "Kapan tanggal mulai dan berakhir pendaftaran mahasiswa baru",
+        "Kapan tanggal mulai dan berakhir pendaftaran maba",
         "Apakah ada informasi terbaru tentang penerimaan mahasiswa baru",
-        "Dapatkah Anda memberikan jadwal pendaftaran mahasiswa baru",
+        "Dapatkah Anda memberikan jadwal pendaftaran maba",
         "Apakah ada batas waktu untuk mendaftar sebagai mahasiswa baru?",
-        "Di mana saya dapat menemukan informasi lengkap tentang penerimaan mahasiswa baru",
+        "Di mana saya dapat menemukan informasi lengkap tentang penerimaan maba",
         "Apakah mempunyai brosur"
       ],
       "responses": "Jangan Lupa Untuk Follow Instagram Kami dan Tetap Up-to-Date dengan Informasi Terbaru Universitas Universal<br /><br /><table><thead><tr><th><b>Gelombang Prioritas</b><br />Juli 2022 s.d. September 2022</th></tr></thead><tbody><tr><td>Lulus Tes</td><td>Beasiswa Penuh 8 Semester</td></tr><tr><td>Tidak Lulus Tes</td><td>75% Potongan SPP Tetap 2 Semester Pertama</td></tr></tbody></table><br /><br /><table><thead><tr><th><b>Gelombang 1</b><br />Oktober 2022 s.d. Februari 2023</th></tr></thead><tbody><tr><td>Reguler</td><td>50% Potongan SPP Tetap 2 Semester Pertama</td></tr><tr><td>Beasiswa UVERS 1 <br />Juara kelas/lomba tingkat Kota/Kabupaten</td><td>50% Potongan SPP Tetap 2 Semester Pertama</td></tr><tr><td>Beasiswa UVERS 2 <br />Juara lomba tingkat Provinsi</td><td>75% Potongan SPP Tetap 2 Semester Pertama</td></tr><tr><td>Beasiswa UVERS 3 <br />Juara lomba tingkat Nasional/Internasional</td><td>100% Potongan SPP Tetap 2 Semester Pertama</td></tr></tbody></table><br /><br /><table><thead><tr><th><b>Gelombang 2</b><br />Maret 2023 s.d. Mei 2023</th></tr></thead><tbody><tr><td>Reguler</td><td>25% Potongan SPP Tetap 2 Semester Pertama</td></tr><tr><td>Beasiswa UVERS 1 <br />Juara kelas/lomba tingkat Kota/Kabupaten</td><td>25% Potongan SPP Tetap 2 Semester Pertama</td></tr><tr><td>Beasiswa UVERS 2 <br />Juara lomba tingkat Provinsi</td><td>50% Potongan SPP Tetap 2 Semester Pertama</td></tr><tr><td>Beasiswa UVERS 3 <br />Juara lomba tingkat Nasional/Internasional</td><td>75% Potongan SPP Tetap 2 Semester Pertama</td></tr><tr><td>Jalur Linearitas Program Studi</td><td>50% Potongan SPP Tetap 2 Semester Pertama</td></tr></tbody></table><br /><br /><table><thead><tr><th><b>Gelombang 3</b><br />Juni 2023 s.d. Agustus 2023</th></tr></thead><tbody><tr><td>Reguler</td><td>Tanpa Potongan</td></tr><tr><td>Jalur Linearitas Program Studi</td><td>25% Potongan SPP Tetap 2 Semester Pertama</td></tr></tbody></table>"
@@ -74,16 +74,16 @@
     {
       "tag": "biaya__pendidikan",
       "patterns": [
-        "Berapa besar biaya yang harus dikeluarkan untuk masuk universitas ini?",
-        "Apakah ada biaya yang harus dibayar untuk pendaftaran",
+        "Berapa besar uang yang harus dikeluarkan untuk masuk universitas ini?",
+        "Apakah ada biaya ukt yang harus dibayar untuk pendaftaran",
         "Berapa biaya pendidikan untuk Universitas Universal?",
         "Apakah biaya pendaftaran sudah termasuk dalam biaya kuliah?",
-        "Apakah biaya kuliah dan biaya lainnya sudah termasuk dalam biaya masuk?",
-        "Apakah ada biaya tambahan yang harus dibayarkan jika mengambil program studi tertentu",
-        "Apa saja komponen biaya pendidikan yang harus saya bayar",
+        "Apakah uang kuliah dan uang lainnya sudah termasuk dalam biaya masuk?",
+        "Apakah ada biaya ukt tambahan yang harus dibayarkan jika mengambil program studi tertentu",
+        "Apa saja komponen uang pendidikan yang harus saya bayar",
         "Berapa biaya pendaftaran untuk menjadi mahasiswa baru",
         "Apakah ada biaya tambahan selain biaya pendaftaran yang perlu saya persiapkan?",
-        "Apakah biaya masuk berbeda antara program studi?",
+        "Apakah uang masuk berbeda antara program studi?",
         "Apakah ada biaya yang tidak termasuk dalam biaya masuk, seperti biaya buku, seragam, dan lainnya?"
       ],
       "responses": "Untuk rincian biaya pendidikan di UVERS adalah sebagai berikut:<br /><br />-Biaya Pangkal dan Pembangunan= Rp0<br /><br />-Formulir= Rp100.000 (1 kali bayar)<br /><br />-Jas Almamater + Biaya Administrasi= Rp600.000 (1 kali bayar)<br /><br />-Biaya SPP Tetap= Rp4.000.000<br /><br />-Biaya SPP Per SKS (Program Studi PBM)= Rp230.000<br /><br />-Biaya SPP Per SKS(Program Studi Lainnya)= Rp180.000<br /><br />Contoh perhitungan biaya semester 1 prodi pendidikan bahasa mandarin untuk harga normal (tanpa potongan) perkiraan SKS semester 1 = 20 SKS<br /><br />Perhitungan SPP ini bisa disesuaikan dengan prodi yang dipilih<br /><br />-Jas almamater + Biaya Administrasi = Rp600.000<br /><br />-Biaya SPP Tetap = Rp4.000.000/semester<br /><br />-Biaya SPP SKS = (18 sampai 24 SKS/semester)<br />Rp230.000/SKS (untuk Prodi Pend. Bahasa Mandarin) x 20 = Rp4.600.00<br /><br />Total yang dibayarkan untuk semester 1 = Rp9.200.000"
@@ -91,7 +91,8 @@
     {
       "tag": "pembayaran",
       "patterns": [
-        "Proses pembayaran biaya kuliah bagaimana?",
+        "Apakah bisa dicicil",
+        "Proses pembayaran uang kuliah bagaimana?",
         "Bagaimana cara atau metode pembayaran SPP yang tersedia?",
         "Apakah ada opsi pembayaran cicilan untuk SPP?",
         "Apa konsekuensi jika saya terlambat membayar SPP?",
@@ -125,7 +126,7 @@
         "Apakah terdapat syarat khusus untuk mendapatkan potongan biaya kuliah atau beasiswa untuk mahasiswa yang berprestasi?",
         "Bagaimana cara mengajukan permohonan untuk potongan biaya kuliah atau beasiswa untuk mahasiswa yang berprestasi?"
       ],
-      "responses": "Tentu saja, UVERS memiliki beberapa program beasiswa dan bantuan keuangan untuk mahasiswa yang berprestasi atau membutuhkan bantuan finansial.<br /><br />Kamu bisa mendapatkan informasi lebih lengkap pada <a href=\"https://bit.ly/beasiswaUvers\">Beasiswa UVERS</a><br /><br /><b>Syaratnya Apa Aja?</b><br />-Memiliki ketertarikan terhadap salah satu program studi yang ditawarkan.<br /><br />-Diusulkan/direkomendasikan oleh Kepala Sekolah secara tertulis.<br /><br />-Nilai rata-rata rapor (kelas X dan XI) minimal 8 dari skala 10.<br /><br />-Lulus Ujian Saringan Masuk UVERS dengan nilai minimal 7 dari skala 10.<br /><br />-Memiliki kedisiplinan yang baik dan keinginan besar untuk kuliah serta berprestasi.<br /><br /><b>Kewajibannya Apa Aja?</b><br />-Menandatangani surat perjanjian penerimaan beasiswa.<br /><br />-Wajib menyelesaikan perkuliahan di UVERS hingga lulus dan tepat waktu.<br /><br />-Indek Prestasi Semester minimal 2,75.<br /><br />-Setelah lulus kuliah wajib mengabdikan diri di lingkungan kerja UVERS selama 1 tahun.<br /><br />-Mematuhi semua peraturan di UVERS"
+      "responses": "<h1>Gelombang Prioritas</h1><table><thead><tr><th>Kategori</th><th>Potongan</th><th>Durasi</th><th>Metode</th><th>Dokumen Pendukung</th></tr></thead><tbody><tr><td>Beasiswa Akademik (Lulus)</td><td>Kuliah Gratis</td><td>8 Semester</td><td rowspan=\"2\">Ujian Saringan Masuk (USM) Beasiswa</td><td rowspan=\"2\">Rapor dan Surat Rekomendasi Kepala Sekolah</td></tr><tr><td>Beasiswa Akademik (Tidak Lulus)</td><td>75%</td><td>2 Semester</td></tr></tbody></table><h1>Gelombang 1 / 2</h1><table><thead><tr><th>Kategori</th><th>Potongan</th><th>Durasi</th><th>Metode</th><th>Dokumen Pendukung</th></tr></thead><tbody><tr><td>Reguler</td><td>50%/25%</td><td rowspan=\"6\">2 Semester</td><td>USM Reguler</td><td>-</td></tr><tr><td>Jalur Prestasi 1 (Tingkat Kota/Kabupaten/Rapor)</td><td>50%/25%</td><td rowspan=\"3\">Tanpa USM</td><td>Sertifikasi Prestasi/Juara atau Rapor</td></tr><tr><td>Jalur Prestasi 2 (Tingkat Provinsi)</td><td>75%/50%</td><td rowspan=\"2\">Sertifikasi Prestasi/Juara</td></tr><tr><td>Jalur Prestasi 3 (Tingkat Nasional dan Internasional)</td><td>100%/75%</td></tr><tr><td>Jalur Sekolah Partner</td><td>75%/50%</td><td rowspan=\"2\">USM Reguler</td><td>Kartu Pelajar</td></tr><tr><td>Jalur Saudara Kandung</td><td>75%/50%</td><td>Kartu Keluarga</td></tr></tbody></table><h1>Gelombang 3</h1><table><thead><tr><th>Kategori</th><th>Potongan</th><th>Durasi</th><th>Metode</th><th>Dokumen Pendukung</th></tr></thead><tbody><tr><td>Reguler</td><td rowspan=\"6\">Tanpa Potongan + Added Value</td><td rowspan=\"6\">-</td><td rowspan=\"6\">USM Reguler</td><td rowspan=\"6\">-</td></tr><tr><td>Jalur Prestasi 1 (Tingkat Kota/Kabupaten/Rapor)</td></tr><tr><td>Jalur Prestasi 2 (Tingkat Provinsi)</td></tr><tr><td>Jalur Prestasi 3 (Tingkat Nasional dan Internasional)</td></tr><tr><td>Jalur Sekolah Partner</td></tr><tr><td>Jalur Saudara Kandung</td></tr><tr><td>Jalur Linearitas Program Studi</td><td>25%</td><td>2 Semester</td><td>USM Beasiswa</td><td>Sertifikasi Prestasi atau Rapor</td></tr></tbody></table><br /><br /><b>Syaratnya Apa Aja?</b><br />-Memiliki ketertarikan terhadap salah satu program studi yang ditawarkan.<br /><br />-Diusulkan/direkomendasikan oleh Kepala Sekolah secara tertulis.<br /><br />-Nilai rata-rata rapor (kelas X dan XI) minimal 8 dari skala 10.<br /><br />-Lulus Ujian Saringan Masuk UVERS dengan nilai minimal 7 dari skala 10.<br /><br />-Memiliki kedisiplinan yang baik dan keinginan besar untuk kuliah serta berprestasi.<br /><br /><b>Kewajibannya Apa Aja?</b><br />-Menandatangani surat perjanjian penerimaan beasiswa.<br /><br />-Wajib menyelesaikan perkuliahan di UVERS hingga lulus dan tepat waktu.<br /><br />-Indek Prestasi Semester minimal 2,75.<br /><br />-Setelah lulus kuliah wajib mengabdikan diri di lingkungan kerja UVERS selama 1 tahun.<br /><br />-Mematuhi semua peraturan di UVERS"
     },
     {
       "tag": "daftar__online",
@@ -252,12 +253,12 @@
       "tag": "nomor__telepon",
       "patterns": [
         "Bagaimana cara saya terhubung dengan UVERS",
-        "Apakah Anda bisa memberikan nomor UCC (Pusat Karir Universitas)",
-        "Apakah Anda dapat memberikan nomor telepon atau kontak vihara?",
-        "Apakah Anda bisa memberikan informasi kontak atau nomor telepon humas atau admin universitas?",
-        "Bagaimana saya bisa mendapatkan nomor telepon atau kontak pusat bahasa universitas?",
-        "Bisakah Anda memberikan nomor telepon atau kontak untuk admin kemahasiswaan universitas?",
-        "Ada nomor telepon atau kontak buat tanya-tanya soal kerjaan setelah lulus gak? Kayak Pusat Karir gitu?",
+        "Bisa memberikan nomor UCC (Pusat Karir Universitas)",
+        "Apakah dapat memberikan nomor telepon vihara?",
+        "Apakah bisa memberikan informasi kontak humas atau admin",
+        "Bagaimana saya bisa mendapatkan nomor telepon pusat bahasa",
+        "Bisakah memberikan kontak untuk admin kemahasiswaan",
+        "Ada nomor telepon buat tanya-tanya soal kerjaan setelah lulus, seperti pusat karir",
         "Ada nomor buat kontak pusat bahasa di kampus?",
         "Ada kontak humas atau admin universitas yang bisa dihubungi?",
         "Aku pengen tahu nomor telepon vihara di kampus.",
