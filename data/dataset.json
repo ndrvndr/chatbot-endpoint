@@ -74,6 +74,7 @@
     {
       "tag": "biaya__pendidikan",
       "patterns": [
+        "Berapa ukt uvers",
         "Berapa besar uang yang harus dikeluarkan untuk masuk universitas ini?",
         "Apakah ada biaya ukt yang harus dibayar untuk pendaftaran",
         "Berapa biaya pendidikan untuk Universitas Universal?",
@@ -81,7 +82,7 @@
         "Apakah uang kuliah dan uang lainnya sudah termasuk dalam biaya masuk?",
         "Apakah ada biaya ukt tambahan yang harus dibayarkan jika mengambil program studi tertentu",
         "Apa saja komponen uang pendidikan yang harus saya bayar",
-        "Berapa biaya pendaftaran untuk menjadi mahasiswa baru",
+        "Berapa biaya ukt untuk menjadi mahasiswa baru",
         "Apakah ada biaya tambahan selain biaya pendaftaran yang perlu saya persiapkan?",
         "Apakah uang masuk berbeda antara program studi?",
         "Apakah ada biaya yang tidak termasuk dalam biaya masuk, seperti biaya buku, seragam, dan lainnya?"
