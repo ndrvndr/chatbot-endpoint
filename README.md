@@ -41,7 +41,7 @@ Separate frontend can be accessed [here](https://github.com/ndrvndr/chatbot-app)
 
 ## Attribution
 
-This project is inspired and uses code from the following [repo](https://github.com/patrickloeber/pytorch-chatbot)
+This project is inspired and use code from the following [repo](https://github.com/patrickloeber/pytorch-chatbot)
 
 ## Authors
 
