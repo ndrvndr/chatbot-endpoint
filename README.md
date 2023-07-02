@@ -1,8 +1,4 @@
-
 # Chatbot Endpoint
-
-
-
 
 ## Installation
 
@@ -35,19 +31,22 @@ Run
 ```bash
   python app_demo.py to interact with bot via terminal
 
-  or 
+  or
 
-  python app.py and copy webserviceurl/request to VITE_ENDPOINT, 
+  python app.py and copy webserviceurl/request to VITE_ENDPOINT,
   to interact with the bot via separate frontend
 ```
+
 Separate frontend can be accessed [here](https://github.com/ndrvndr/chatbot-app)
-    
+
+## Attribution
+
+This project was inspired from the following [repo](https://github.com/patrickloeber/pytorch-chatbot)
+
 ## Authors
 
 - [@ndrvndr](https://github.com/ndrvndr)
 
-
 ## Feedback
 
 If you have any feedback, please reach out to me at andreavindra37@gmail.com
-
