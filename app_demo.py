@@ -76,7 +76,7 @@ def get_response(msg):
                 return intent["responses"]
 
     else:
-        return "Maaf, saya tidak mengerti maksud Anda. Bisakah Anda memeriksa kembali kalimat Anda untuk memastikan tidak ada kesalahan pengetikan?. Untuk bantuan lebih lanjut, mohon hubungi nomor layanan pelanggan kami di 0778 - 473399/466869 dan Whatsapp Official Uvers di 6285272161218 atau kirimkan email ke info@uvers.ac.id. Terima kasih."
+        return "Maaf, saya tidak mengerti maksud Anda.<br /><br />Bisakah Anda memeriksa kembali kalimat Anda untuk memastikan tidak ada kesalahan pengetikan?<br /><br />Untuk bantuan lebih lanjut, mohon hubungi nomor layanan pelanggan kami di:<br /><br />0778 473399 / 466869<br />atau<br /><a href=\"https://bit.ly/whatsappOfficialUvers\">WhatsApp Official UVERS</a><br /><br />Atau kirimkan email ke <a href=\"mailto:admisi@uvers.ac.id\">admisi@uvers.ac.id</a>"
 
 
 if __name__ == "__main__":
