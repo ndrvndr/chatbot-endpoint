@@ -1,5 +1,8 @@
 # Chatbot Endpoint
 
+## GitAds Sponsored
+[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=ndrvndr/chatbot-endpoint@github)](https://gitads.dev/v1/ad-track?source=ndrvndr/chatbot-endpoint@github)
+
 This project aims to provide an HTTP request endpoint service that is connected to a frontend chatbot. It also implements an Indonesian language chatbot that can answer user questions regarding university enrollment information.
 
 ## About the Project
@@ -64,6 +67,3 @@ This project is inspired and use code from the following [repo](https://github.c
 If you have any feedback, please reach out to me at andreavindra37@gmail.com
 
 <!-- GitAds-Verify: 93A7R5W8INUZM4G8ZCW3JGI5VJRNG51Y -->
-
-## GitAds Sponsored
-[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=ndrvndr/chatbot-endpoint@github)](https://gitads.dev/v1/ad-track?source=ndrvndr/chatbot-endpoint@github)
